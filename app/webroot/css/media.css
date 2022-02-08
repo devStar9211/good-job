@@ -1,0 +1,137 @@
+.modal.fade.in .modal-backdrop.fade.in {
+  z-index: -1;
+  opacity: 0;
+}
+#media .check{
+  opacity:0.5;
+  color:#996;
+}
+
+#media .upload-files{
+	text-align: center;
+	margin-top: 6%;
+}
+#media #media-library{
+}
+#media .list-media{
+    overflow: auto;
+    width: 100%;
+    height: 300px;
+}
+#media .list-media .media-file{
+	height: 130px;
+}
+#media .list-media img{
+	width: 100%;
+	height: 100%;
+}
+#media #filter-media{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#media .loadding-media,
+#media .media-null{
+	text-align: center;
+	margin-top: 10%;
+}
+#media .modal-footer{
+	position: fixed;
+    bottom: 8%;
+    right: 0%;
+    width: 100%;
+    background: #fff;
+}
+
+#media #filter_date{
+	margin-bottom: 5px;
+}
+
+
+#media .list-media ul {
+  list-style-type: none;
+}
+
+#media .list-media ul li {
+  display: inline-block;
+}
+
+#media .list-media input[type="checkbox"][id^="cb"] {
+  display: none;
+}
+
+#media .list-media label {
+  border: 1px solid #fff;
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#media .list-media label:before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid #286090;;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 23px;
+  height: 23px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+
+#media .list-media label img {
+  height: 100px;
+  width: 100px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+#media .list-media ul li :checked + label {
+  border-color: #ddd;
+}
+
+#media .list-media ul li :checked + label:before {
+  /* content: "✓"; */
+	background-image: url(/img/uploader-icons.png);
+	background-position: -17px 3px;
+	background-color: #286090;;
+	transform: scale(1);
+}
+
+#media .list-media ul li :checked + label img {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px #333;
+  z-index: 9999;
+}
+
+
+#remove-image{
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#remove-image a{
+  text-decoration: underline;
+}
+
+#get-media a.media-get{
+  text-decoration: underline
+}
+@media screen and (max-width: 370px) {
+  #upload-media a,
+  #media-list a,
+  #upload-media-get a,
+  #media-list-get a{
+    font-size: 11px;
+    padding: 10px 3px;
+  }
+}

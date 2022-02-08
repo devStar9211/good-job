@@ -1,0 +1,1 @@
+<?=$this->element('post', array('posts' => $posts))?>

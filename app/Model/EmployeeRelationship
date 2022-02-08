@@ -1,0 +1,13 @@
+<?php
+
+class EmployeeRelationship extends AppModel {
+	public $useTable = 'employee_relationships';
+	public $primaryKey = 'id';
+
+	public $belongsTo = array(
+		'Employee' => array(
+			'className' => 'Employee',
+			'foreignKey' => 'employee_Id'
+		)
+	);
+}

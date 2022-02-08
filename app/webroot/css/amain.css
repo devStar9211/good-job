@@ -1,0 +1,508 @@
+/* Add fade animation to dropdown menus */
+body {
+    font-size: 12px;
+}
+.open > .dropdown-menu {
+    animation-name: fadeAnimation;
+    animation-duration: .7s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: fadeAnimation;
+    -webkit-animation-duration: .7s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: fadeAnimation;
+    -moz-animation-duration: .7s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: forwards;
+}
+@keyframes fadeAnimation {
+    from {
+        opacity: 0;
+        top: 120%;
+    }
+    to {
+        opacity: 1;
+        top: 100%;
+    }
+}
+@-webkit-keyframes fadeAnimation {
+    from {
+        opacity: 0;
+        top: 120%;
+    }
+    to {
+        opacity: 1;
+        top: 100%;
+    }
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header {
+    height: 65px;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    margin-left: 0px !important;
+}
+
+/*css datagrid*/
+.datagrid .pagination {
+    margin:0;
+}
+
+#search-button {
+    background-color: #fff !important;
+    border-bottom-color: #fff !important;
+    margin-top: -8px;
+}
+
+#search-button:hover{
+    border-color: #7D7E80;
+}
+
+.content-wrapper {
+    background-color: #ecf0f5;
+}
+
+.table-responsive table thead, .table-responsive table tfoot {
+    background-color: #3c8dbc;
+}
+
+.table-responsive table th, .table-responsive table th.actions ,.table-responsive table thead a, .table-responsive table thead a:hover, .table-responsive table tfoot a, .table-responsive table tfoot a:hover {
+    color: #fff;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #3c8dbc;
+    border-color: #3c8dbc;
+}
+
+legend .btn-group{
+    margin-top: -3px;
+}
+
+legend .dropdown-menu{
+    background: #f9f9f9;
+    min-height: 100px;
+}
+
+legend .dropdown-menu > li > a {
+    color: #000;
+}
+
+.skin-blue .sidebar-menu > li.header > span {
+    padding-left: 10px;
+}
+
+.skin-blue .sidebar-menu > li.header {
+    font-size: 14px;
+    color: #fff;
+    background-color: #3C8DBC;
+}
+
+.button-refresh{
+    background-color: lime;
+    margin-right: 5px;
+}
+
+.top20{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.top20 img.post_img{
+    display: inline;
+}
+
+.top20 div.post-existed{
+    background: pink;
+    margin: 0 3px;
+    padding: 2px 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.top20 div.post{
+    background: #ECECEC;
+    margin: 0 3px;
+    padding: 2px 10px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+.top20 div.post.active{
+    background: #ccc;
+    color: #fff;
+}
+span.date_post{
+    display: block;
+    text-align: center;
+}
+ul.post_info{
+    list-style: none;
+    margin: 0 0 0 10px;
+    padding: 0px;
+}
+ul.post_info li{
+    float: left;
+    width: 50%;
+    padding-left: 17px;
+    font-size: 14px;
+    text-align: left;
+}
+ul.post_info li.like{
+    background: url(../img/profile-page-assets.png);
+    background-repeat: no-repeat;
+    background-position: 3px -96px;
+}
+ul.post_info li.comments{
+    background: url(../img/profile-page-assets.png);
+    background-repeat: no-repeat;
+    background-position: 3px 4px;
+}
+button.detail{
+    display: block;
+    margin: 10px auto 0 auto;
+    
+}
+/* css form */
+form .checkbox {
+    display: inline-block;
+}
+
+table tr td.number {
+    text-align: right;
+}
+
+/* auto suggest*/
+.ui-autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    display: none;
+    min-width: 160px;
+    _width: 160px;
+    padding: 4px 0;
+    margin: 2px 0 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border-color: #ccc;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+}
+
+.ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+}
+
+.ui-state-hover, .ui-state-active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0088cc;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    background-image: none;
+}
+
+.modal-box select.form-control {
+    display : inline-block !important;
+    width: 25% !important;
+}
+
+.modal-box button {
+    display: inline-block !important;
+    width: 23% !important;
+}
+
+/* form require field */
+.form-group.required > label:after {
+    color: #e32;
+    content: '*';
+    display:inline;
+    font-weight: bold;
+}
+
+/* add post page */
+#post-form .products {
+    border:1px solid #262626;
+    width: 50px;
+    min-height: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.products-load-more > button {
+    width: 52px;
+    height: 52px
+}
+
+.has-error label, .has-error .control-label {
+    color: #dd4b39 !important;
+}
+
+
+.glyphicon-refresh-animate {
+        -webkit-animation: spin .7s infinite linear;
+        -moz-animation: spin .7s infinite linear;
+        -o-animation: spin .7s infinite linear;
+        animation: spin .7s infinite linear;
+        -webkit-transform-origin: 50% 50%;
+        transform-origin:50% 50%;
+        -ms-transform-origin:50% 50%; /* IE 9 */      
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+from {
+  -webkit-transform: rotate(0deg);
+}
+to {
+  -webkit-transform: rotate(360deg);
+}
+}
+
+@keyframes spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+/*.post-info-title{
+    padding: 7px;
+    background: #3c8dbc;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 15px;
+}
+#promotion-source .promotion{
+    width: 141px;
+    border: 1px solid #3C8DBC;
+    margin: 1px;
+    padding: 5px;
+    min-height: 290px;
+}
+#promotion-source .promotion .btn-add{
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+}*/
+
+#promotion-source .product_image_container {
+    width: 100px;
+    height: 100px;
+    min-height: 100px;
+    overflow: hidden;
+}
+#post-info  .product_name_container, #promotion-source .product_name_container {
+    height:40px;
+    min-height: 40px;
+    overflow: hidden;
+}
+
+#promotion-source .promotion {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#products-container a.link{
+    display: block;
+    width: 60px;
+    height: 70px;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+
+/* active menu element */
+.sidebar-menu>li>a.active {
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #3c8dbc;
+}
+
+/* sort column indicator */
+.table-responsive tr th a.asc:after {
+    content: ' ▼';
+}
+
+.table-responsive tr th a.desc:after {
+    content: ' ▲';
+}
+
+.table-responsive th.actions {
+    width : 130px;
+}
+
+/* css admin product list page */
+
+.table-responsive td.products-list ul {
+    list-style: none;
+}
+
+.table-responsive td.products-list ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#myForm .form-group {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+}
+
+#myForm .glyphicon-minus-sign:before {
+    line-height: 40px;
+}
+
+/*custom checkbox*/
+.checkbox {
+    padding-left: 20px; }
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    padding-left: 3px;
+    padding-top: 1px;
+    font-size: 11px;
+    color: #555555; }
+.checkbox input[type="checkbox"] {
+    opacity: 0; }
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+.checkbox input[type="checkbox"]:checked + label::after {
+    font-family: 'FontAwesome';
+    content: "\f00c"; }
+.checkbox input[type="checkbox"]:disabled + label {
+    opacity: 0.65; }
+.checkbox input[type="checkbox"]:disabled + label::before {
+    background-color: #eeeeee;
+    cursor: not-allowed; }
+.checkbox.checkbox-circle label::before {
+    border-radius: 50%; }
+.checkbox.checkbox-inline {
+    margin-top: 0; }
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+    background-color: #428bca;
+    border-color: #428bca; }
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.checkbox-danger input[type="checkbox"]:checked + label::before {
+    background-color: #d9534f;
+    border-color: #d9534f; }
+.checkbox-danger input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.checkbox-info input[type="checkbox"]:checked + label::before {
+    background-color: #5bc0de;
+    border-color: #5bc0de; }
+.checkbox-info input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.checkbox-warning input[type="checkbox"]:checked + label::before {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e; }
+.checkbox-warning input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.checkbox-success input[type="checkbox"]:checked + label::before {
+    background-color: #5cb85c;
+    border-color: #5cb85c; }
+.checkbox-success input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.data-row {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.data-row a {
+    font-size: 2em;
+    color: red;
+    position: absolute;
+    margin: -20px 10px;
+    cursor: pointer;
+}
+
+#UserAdminEditForm .checkbox, .data-row .checkbox {
+    margin-top: 0 !important;
+}
+/*REVERT clearfix bootstrap*/
+.clearfix-r:before,
+.clearfix-r:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix-r:after {
+    clear: both;
+}
+/*CONFIG GRID PAGE - ADMIN*/
+#config #config-validate .company-name, #config #config-validate .select2, #config .select2-container {
+    font-size : 20px;
+}

@@ -1,0 +1,2860 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: Config/_config.php:40
+msgid "List bài viết"
+msgstr "記事一覧"
+
+#: Config/_config.php:51
+msgid "Tạo bài viết"
+msgstr "記事作成"
+
+#: Config/_config.php:76
+msgid "Article category"
+msgstr "記事カテゴリー"
+
+#: Config/_config.php:80
+#, fuzzy
+msgid "Post thông tin mới đến-NEWS"
+msgstr "新着情報投稿"
+
+#: Config/_config.php:102
+msgid "Nhập dự toán"
+msgstr "予算入力"
+
+#: Config/_config.php:121
+msgid "Nhập thành tích thực tế"
+msgstr "月次売上費用入力"
+
+#: Config/_config.php:140
+msgid "Nhập kinh phí thực tế"
+msgstr "月次費用入力"
+
+#: Config/_config.php:159
+msgid "Nhập tiền thưởng"
+msgstr "賞金入力"
+
+#: Config/_config.php:170
+msgid "Đăng ký tiền thưởng"
+msgstr "賞金登録"
+
+#: Config/_config.php:174
+msgid "Doanh số"
+msgstr "売上"
+
+#: Config/_config.php:188
+msgid "Danh sách company"
+msgstr "会社一覧"
+
+#: Config/_config.php:213
+msgid "Đăng ký Group DB"
+msgstr "グループDB登録"
+
+#: Config/_config.php:226
+msgid "Setting Company"
+msgstr "会社設定"
+
+#: Config/_config.php:254 Controller/OfficesController.php:10
+msgid "Danh sách Office"
+msgstr "施設一覧"
+
+#: Config/_config.php:274
+#, fuzzy
+msgid "Đăng ký Office Group DB"
+msgstr "施設グループDB登録"
+
+#: Config/_config.php:294
+#, fuzzy
+msgid "Đăng ký Addition judgment DB"
+msgstr "役職DB登録"
+
+#: Config/_config.php:315
+msgid "Manager Office"
+msgstr "施設管理"
+
+#: Config/_config.php:326
+#, fuzzy
+msgid "Đăng ký phân loại hình thức kinh doanh DB"
+msgstr "業態DB登録"
+
+#: Config/_config.php:337
+msgid "Đăng ký Evaluation DB"
+msgstr "加算判定DB登録"
+
+#: Config/_config.php:348
+msgid "Đăng ký Division DB"
+msgstr "所属DB登録"
+
+#: Config/_config.php:354
+#, fuzzy
+msgid "Đăng ký Main Office"
+msgstr "施設長登録"
+
+#: Config/_config.php:360
+msgid "Setting Office"
+msgstr "施設設定"
+
+#: Config/_config.php:388
+msgid "Danh sách Employee"
+msgstr "従業員一覧"
+
+#: Config/_config.php:399
+msgid "Đăng ký Position DB"
+msgstr "役職DB登録"
+
+#: Config/_config.php:410
+msgid "Đăng ký Job DB"
+msgstr "職種DB登録"
+
+#: Config/_config.php:421
+msgid "Đăng ký bằng cấp DB"
+msgstr "資格DB登録"
+
+#: Config/_config.php:425
+msgid "Setting Employee"
+msgstr "従業員設定"
+
+#: Config/_config.php:436
+#, fuzzy
+msgid "Quyền xem"
+msgstr "閲覧権限"
+
+#: Config/_config.php:447
+#, fuzzy
+msgid "Setting kết nối API"
+msgstr "API接続設定"
+
+#: Config/_config.php:470
+msgid "Danh sách admin user"
+msgstr "Adminユーザー一覧"
+
+#: Config/_config.php:481 Controller/AccountsController.php:405
+#: View/Accounts/admin_list_admin_user.ctp:9
+#, fuzzy
+msgid "Đăng ký admin user"
+msgstr "アドミンユーザ登録"
+
+#: Config/_config.php:485
+msgid "Admin user"
+msgstr "Adminユーザー"
+
+#: Config/_config.php:499
+msgid "Home"
+msgstr "ホーム"
+
+#: Config/_config.php:507
+#, fuzzy
+msgid "Quyết toán hàng ngày"
+msgstr "日次決算"
+
+msgid "Quyết toán"
+msgstr "決算"
+
+#: Config/_config.php:515 View/Elements/fheader.ctp:24
+#, fuzzy
+msgid "Ranking dự toán đạt được"
+msgstr "予算達成ランキング"
+
+#: Config/_config.php:523 View/Elements/fheader.ctp:30
+#, fuzzy
+msgid "Ranking so với năm ngoái"
+msgstr "昨年対比ランキング"
+
+#: Config/_config.php:531 View/Elements/fheader.ctp:36
+msgid "My page"
+msgstr "マイページ"
+
+#: Config/_config.php:545
+msgid "Posts"
+msgstr "新着情報投稿"
+
+#: Controller/AccountsController.php:59
+msgid "Login"
+msgstr ""
+
+#: Controller/AccountsController.php:67 Controller/UsersController.php:154
+msgid "ユーザー名かパスワードが無効です。"
+msgstr ""
+
+#: Controller/AccountsController.php:78 View/Elements/atopnav.ctp:27
+#: View/Elements/fheader.ctp:66
+msgid "Edit profile"
+msgstr "プロフィール編集"
+
+#: Controller/AccountsController.php:97;100;104;109;306;411;414;419;423;428;432;511;514;519
+msgid " please fill out this field."
+msgstr "このフィルドに記入して下さい。"
+
+#: Controller/AccountsController.php:101;307;420
+msgid " Please enter a valid email address."
+msgstr ""
+
+#: Controller/AccountsController.php:105;424;515
+msgid " password must be at least 6 characters long."
+msgstr "パスワードは6文字以上です。"
+
+#: Controller/AccountsController.php:106;425;516
+msgid " password is too long. "
+msgstr "パスワードは長すぎます。"
+
+#: Controller/AccountsController.php:161;164
+msgid "success saved"
+msgstr "保存完了。"
+
+#: Controller/AccountsController.php:255
+#: Controller/BudgetSalesController.php:40;134;216
+#: Controller/EmployeePrizesController.php:33
+#: Controller/EmployeesController.php:174;283
+#: Controller/OfficeGroupsController.php:97
+#: Controller/OfficesController.php:225;283
+msgid "Item saved"
+msgstr "保存完了。"
+
+#: Controller/AccountsController.php:259
+#: Controller/BudgetSalesController.php:43;137;219
+#: Controller/EmployeePrizesController.php:36
+#: Controller/EmployeesController.php:177;286
+#: Controller/OfficesController.php:229;287
+msgid "The item could not be saved. Please try again."
+msgstr "保存できません。もう一度試して下さい。"
+
+#: Controller/AccountsController.php:299
+#, fuzzy
+msgid "Forgot password"
+msgstr "パスワード確認"
+
+#: Controller/AccountsController.php:330
+#, fuzzy
+msgid "forgot password"
+msgstr "パスワード確認"
+
+#: Controller/AccountsController.php:346
+#, fuzzy
+msgid "Email không tồn tại trong hệ thống."
+msgstr "メールは空になりません。"
+
+#: Controller/AccountsController.php:364
+msgid "List admin user"
+msgstr "アドミンユーザ一覧"
+
+#: Controller/AccountsController.php:415
+#, fuzzy
+msgid " Username must be at least 6 characters long."
+msgstr "ユーザは6文字以上です。"
+
+#: Controller/AccountsController.php:416
+#, fuzzy
+msgid " Username is too long. "
+msgstr "ユーザは長すぎます。"
+
+#: Controller/AccountsController.php:429
+msgid "  mật khẩu này không khớp. Thử lại?"
+msgstr "入力したパスワードは正しくありません。もう一度試して下さい。"
+
+#: Controller/AccountsController.php:488;497
+#: Controller/PostsController.php:210;280;311
+#: Controller/UsersController.php:65;95
+msgid "アイテムを保存できませんでした。もう一度試してください。"
+msgstr ""
+
+#: Controller/AccountsController.php:492
+#: Controller/PostsController.php:207;277;309
+msgid "アイテムが保存されました."
+msgstr ""
+
+#: Controller/AccountsController.php:506
+msgid "Change admin user"
+msgstr "アドミンユーザ変更"
+
+#: Controller/AdditionJudgmentsController.php:14 View/Offices/admin_edit.ctp:58
+msgid "Addition judgment"
+msgstr "加算判定"
+
+#: Controller/BudgetSalesController.php:657;848;990
+msgid "không thể lưu dữ liệu"
+msgstr ""
+
+#: Controller/BudgetSalesController.php:661;852;994
+msgid "dữ liệu không đúng định dạng"
+msgstr ""
+
+#: Controller/BudgetSalesController.php:665;856;998
+msgid "không thể tìm thấy office"
+msgstr ""
+
+#: Controller/BudgetSalesController.php:669;860;1002
+#, fuzzy
+msgid "không đọc được dữ liệu"
+msgstr "空になりません。"
+
+#: Controller/BudgetSalesController.php:673;864;1006
+#: Controller/OfficeGroupsController.php:97;113
+#, fuzzy
+msgid "success"
+msgstr "保存完了"
+
+#: Controller/BudgetSalesController.php:1077
+#: View/Elements/budget_revenue_table.ctp:32;52;53;69
+#: View/Elements/sales_revenue_table.ctp:28;51;72
+msgid "売上"
+msgstr ""
+
+#: Controller/BudgetSalesController.php:1104
+#: View/Elements/budget_revenue_table.ctp:121;140;141;157
+#: View/Elements/sales_expense_table.ctp:58;76;96
+msgid "経費"
+msgstr ""
+
+#: Controller/BudgetSalesController.php:1132
+msgid "Not a csv file"
+msgstr ""
+
+#: Controller/BudgetSalesController.php:1155
+#, fuzzy
+msgid "Invalid file !"
+msgstr "無効な投稿"
+
+#: Controller/BusinessCategoriesController.php:8 View/Offices/admin_edit.ctp:52
+msgid "Business category"
+msgstr "業態"
+
+#: Controller/CategoriesController.php:55 View/Posts/admin_index.ctp:128;221
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: Controller/CategoriesController.php:92
+msgid "Invalid category"
+msgstr "無効なカテゴリー"
+
+#: Controller/CategoriesController.php:108;141
+#: Controller/CompaniesController.php:63;66;102;105
+#: Controller/PostsController.php:161;164;235;238
+msgid " Trường này là bắt buộc"
+msgstr "このフィルドは必須です。"
+
+#: Controller/CategoriesController.php:115
+msgid "Add Categories"
+msgstr "カテゴリー追加"
+
+#: Controller/CategoriesController.php:147
+msgid "Edit Categories"
+msgstr "カテゴリー編集"
+
+#: Controller/CategoriesController.php:189
+msgid ""
+"Hiện đang có một số bài viết thuộc thể loại này. Để xóa thể loại bạn phải "
+"xóa những bài viết thuộc thể loại này trước."
+msgstr ""
+
+#: Controller/CompaniesController.php:25
+msgid "Companies"
+msgstr "会社"
+
+#: Controller/CompaniesController.php:113
+msgid "Edit companies"
+msgstr "会社編集"
+
+#: Controller/CompanyGroupsController.php:12 View/Offices/admin_edit.ctp:47
+msgid "Company group"
+msgstr "企業グループ"
+
+#: Controller/DailySettlementController.php:14
+#: Controller/FrontendController.php:61
+#: Controller/PrizeRankingController.php:14
+msgid "Daily Settlement"
+msgstr "日次決算"
+
+#: Controller/DailySettlementController.php:158
+#: Controller/FrontendController.php:205
+msgid "total"
+msgstr "合計"
+
+#: Controller/DailySettlementController.php:164
+#: Controller/FrontendController.php:211
+msgid "subtotal"
+msgstr "小計"
+
+#: Controller/DailySettlementController.php:168
+#: Controller/FrontendController.php:215
+msgid "average group"
+msgstr "通所合計"
+
+#: Controller/DailySettlementController.php:176
+#: Controller/FrontendController.php:223
+msgid "accumulated entity"
+msgstr "法人累計"
+
+#: Controller/DemosController.php:30
+msgid "Email không được để trống"
+msgstr "メールは空になりません。"
+
+#: Controller/DemosController.php:31
+msgid "Tối thiểu 7 ký tự"
+msgstr "7文字以上"
+
+#: Controller/DemosController.php:34
+msgid "Không được để trống"
+msgstr "空になりません。"
+
+#: Controller/DemosController.php:35
+msgid "Vui lòng điền mk hợp lệ."
+msgstr "正しいパスワードを入力して下さい。"
+
+#: Controller/DivisionsController.php:15 View/Offices/admin_edit.ctp:54
+#: View/Offices/admin_index.ctp:56
+msgid "Division"
+msgstr "所属"
+
+#: Controller/EvaluationsController.php:8 View/Offices/admin_edit.ctp:50
+msgid "Evaluation"
+msgstr "判定"
+
+#: Controller/FrontendController.php:570
+msgid "Budget Ranking"
+msgstr "予算ランキング"
+
+#: Controller/FrontendController.php:898
+msgid "User Page"
+msgstr "ユーザページ"
+
+#: Controller/FrontendController.php:1197;1226 View/Elements/fheader.ctp:42
+msgid "Post"
+msgstr "投稿"
+
+#: Controller/FrontendController.php:1261 Controller/PostsController.php:141
+msgid "Invalid post"
+msgstr "無効な投稿"
+
+#: Controller/LicensesController.php:15
+msgid "License DB registration"
+msgstr "資格DB登録"
+
+#: Controller/OccupationsController.php:15
+msgid "Occupation"
+msgstr "資格DB登録"
+
+#: Controller/OfficeGroupsController.php:15 View/Offices/admin_edit.ctp:55
+#, fuzzy
+msgid "Office group"
+msgstr "施設グループ"
+
+#: Controller/OfficeGroupsController.php:74;75
+#: Controller/WidgetController.php:37
+msgid "Tên đã tồn tại."
+msgstr "名前は既に存在しています。"
+
+#: Controller/OfficeGroupsController.php:75;95
+msgid "error"
+msgstr ""
+
+#: Controller/OfficeGroupsController.php:113 Controller/WidgetController.php:70
+msgid "Xóa thành công."
+msgstr "削除完了"
+
+#: Controller/OfficeGroupsController.php:115;118
+#: Controller/WidgetController.php:72;75
+msgid "Không thể xóa bản ghi này, dữ liệu đang được sử dụng ở nơi khác."
+msgstr "この記録は削除できません。他のところで使用しています。"
+
+#: Controller/OfficeGroupsController.php:115;118
+msgid "warning"
+msgstr ""
+
+#: Controller/OfficesController.php:39
+msgid "Office manager"
+msgstr "施設長管理"
+
+#: Controller/OfficesController.php:114
+msgid "Save thành công."
+msgstr "保存完了"
+
+#: Controller/OfficesController.php:212
+msgid "Thêm mới Office"
+msgstr "施設新規追加"
+
+#: Controller/OfficesController.php:239;446
+msgid "Chỉnh sửa Office"
+msgstr "施設編集"
+
+#: Controller/OfficesController.php:474
+msgid "Save success"
+msgstr "保存完了"
+
+#: Controller/PositionsController.php:17
+msgid "Position DB registration"
+msgstr "役職DB登録"
+
+#: Controller/PostsController.php:31
+msgid "article list"
+msgstr "記事一覧"
+
+#: Controller/PostsController.php:139 View/Posts/admin_index.ctp:157
+msgid "Preview"
+msgstr "プレビュー"
+
+#: Controller/PostsController.php:156
+msgid "New post"
+msgstr "新規投稿"
+
+#: Controller/PostsController.php:229
+msgid "Edit post"
+msgstr "投稿編集"
+
+#: Controller/PostsController.php:247 Controller/UsersController.php:80;113;176
+msgid "アカウントは無効です"
+msgstr ""
+
+#: Controller/PostsController.php:302
+msgid "無効な投稿"
+msgstr ""
+
+#: Controller/SettingApiController.php:13
+#, fuzzy
+
+
+#: Controller/SettingApiController.php:160
+msgid "Office này không có trong hệ thống."
+msgstr ""
+
+#: Controller/SettingApiController.php:168
+msgid "Company này không có trong hệ thống."
+msgstr "この会社はシステムにありません"
+
+#: Controller/UsersController.php:62;92
+msgid "アイテムが保存されました"
+msgstr ""
+
+#: Controller/UsersController.php:116
+msgid "このマネジャーが管理されるモデルがあり、削除できません。"
+msgstr ""
+
+#: Controller/UsersController.php:118
+msgid "アイテムは削除されました。"
+msgstr ""
+
+#: Controller/UsersController.php:120
+msgid "項目は削除できませんでした。もう一度試してください。"
+msgstr ""
+
+#: Controller/UsersController.php:208
+msgid "パスワードが変更されました."
+msgstr ""
+
+#: Controller/UsersController.php:215
+msgid "パスワードが変更されなかった。"
+msgstr ""
+
+#: Controller/WidgetController.php:54
+msgid "Cập nhật thành công"
+msgstr "更新完了"
+
+#: View/Accounts/admin_change_admin_user.ctp:21
+#: View/Accounts/admin_register_admin_user.ctp:21
+#: View/Accounts/edit_profile.ctp:126 View/Employees/admin_add.ctp:231
+#: View/Employees/admin_edit.ctp:230
+msgid "avatar"
+msgstr "写真"
+
+#: View/Accounts/admin_change_admin_user.ctp:32
+#: View/Accounts/admin_register_admin_user.ctp:31
+#: View/Accounts/edit_profile.ctp:36
+msgid "All"
+msgstr "全て"
+
+#: View/Accounts/admin_change_admin_user.ctp:32
+#: View/Accounts/admin_register_admin_user.ctp:31
+#: View/Accounts/edit_profile.ctp:36 View/Offices/admin_select_manager.ctp:14
+msgid "Select company"
+msgstr "会社を選択"
+
+#: View/Accounts/admin_change_admin_user.ctp:33
+#: View/Accounts/admin_list_admin_user.ctp:23
+#: View/Accounts/admin_register_admin_user.ctp:32
+#: View/Accounts/edit_profile.ctp:37 View/Categories/view.ctp:14;49
+#: View/OfficeGroups/setting_edit.ctp:67
+#: View/OfficeGroups/setting_edit_bak.ctp:64
+#: View/Offices/admin_edit.ctp:71;144;163
+msgid "Name"
+msgstr "名前"
+
+#: View/Accounts/admin_change_admin_user.ctp:35
+#: View/Accounts/admin_list_admin_user.ctp:24
+#: View/Accounts/admin_register_admin_user.ctp:33
+#: View/Accounts/edit_profile.ctp:38 View/Accounts/forgot_password.ctp:25
+#: View/Users/admin_view.ctp:9
+msgid "Email"
+msgstr "メール"
+
+#: View/Accounts/admin_change_admin_user.ctp:36
+#: View/Accounts/admin_list_admin_user.ctp:22
+#: View/Accounts/admin_register_admin_user.ctp:34
+#: View/Accounts/edit_profile.ctp:40 View/Users/admin_view.ctp:4
+msgid "Username"
+msgstr "ユーザ"
+
+#: View/Accounts/admin_change_admin_user.ctp:37
+#: View/Accounts/admin_register_admin_user.ctp:35
+#: View/Accounts/edit_profile.ctp:41
+msgid "Password"
+msgstr "パスワード"
+
+#: View/Accounts/admin_change_admin_user.ctp:39
+#: View/Accounts/admin_register_admin_user.ctp:37
+#: View/Accounts/edit_profile.ctp:43
+msgid "Confirm password"
+msgstr "パスワード確認"
+
+#: View/Accounts/admin_change_admin_user.ctp:42
+#: View/Accounts/admin_register_admin_user.ctp:39
+#: View/Accounts/edit_profile.ctp:46;575 View/Employees/admin_add.ctp:689
+#: View/Employees/admin_edit.ctp:693
+msgid "profile"
+msgstr "プロフィール"
+
+#: View/Accounts/admin_change_admin_user.ctp:46
+#: View/Accounts/edit_profile.ctp:50
+msgid "登録"
+msgstr ""
+
+#: View/Accounts/admin_list_admin_user.ctp:18
+msgid "list admin user"
+msgstr "アドミンユーザ一覧"
+
+#: View/Accounts/admin_list_admin_user.ctp:21 View/Companies/admin_add.ctp:9
+#: View/Companies/admin_edit.ctp:9
+msgid "Company name"
+msgstr "会社名"
+
+#: View/Accounts/admin_list_admin_user.ctp:34
+#, fuzzy
+msgid "All Company"
+msgstr "会社追加"
+
+#: View/Accounts/admin_register_admin_user.ctp:43
+msgid "Save"
+msgstr "保存"
+
+#: View/Accounts/edit_profile.ctp:136;496;535
+#: View/Employees/admin_add.ctp:241;610;649
+#: View/Employees/admin_edit.ctp:240;614;653
+msgid "name"
+msgstr "名前"
+
+#: View/Accounts/edit_profile.ctp:140;502;504;541;543
+#: View/Employees/admin_add.ctp:245;616;618;655;657
+#: View/Employees/admin_edit.ctp:244;620;622;659;661
+msgid "birthday"
+msgstr "生年月日"
+
+#: View/Accounts/edit_profile.ctp:149 View/Employees/admin_add.ctp:254
+#: View/Employees/admin_edit.ctp:253
+msgid "male"
+msgstr "男性"
+
+#: View/Accounts/edit_profile.ctp:151 View/Employees/admin_add.ctp:256
+#: View/Employees/admin_edit.ctp:255
+msgid "female"
+msgstr "女性"
+
+#: View/Accounts/edit_profile.ctp:159 View/Employees/admin_add.ctp:264
+#: View/Employees/admin_edit.ctp:263
+msgid "tên furigana"
+msgstr "フリガナ"
+
+#: View/Accounts/edit_profile.ctp:162 View/Employees/admin_add.ctp:267
+#: View/Employees/admin_edit.ctp:266
+msgid "mail adress"
+msgstr "メールアドレス"
+
+#: View/Accounts/edit_profile.ctp:165 View/Employees/admin_add.ctp:270
+#: View/Employees/admin_edit.ctp:269
+msgid "phone number"
+msgstr "電話番号"
+
+#: View/Accounts/edit_profile.ctp:183 View/Employees/admin_add.ctp:288
+#: View/Employees/admin_edit.ctp:287
+msgid "username"
+msgstr "ユーザ名"
+
+#: View/Accounts/edit_profile.ctp:186 View/Employees/admin_add.ctp:291
+#: View/Employees/admin_edit.ctp:290
+msgid "password"
+msgstr "パスワード"
+
+#: View/Accounts/edit_profile.ctp:186 View/Employees/admin_edit.ctp:290
+msgid "* * * * * * * *"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:201 View/Elements/daily_settlement_data.ctp:5
+#: View/Employees/admin_add.ctp:306 View/Employees/admin_edit.ctp:305
+msgid "company"
+msgstr "会社名"
+
+#: View/Accounts/edit_profile.ctp:203
+#: View/BudgetSales/admin_expense_sales.ctp:55
+#: View/BudgetSales/admin_revenue_budget.ctp:57
+#: View/BudgetSales/admin_revenue_sales.ctp:75
+#: View/EmployeePrizes/admin_employee_prizes_csv_import.ctp:62
+#: View/EmployeePrizes/admin_enter_prize_money.ctp:51
+#: View/Employees/admin_add.ctp:308 View/Employees/admin_csv_import.ctp:57
+#: View/Employees/admin_edit.ctp:307 View/Employees/admin_index.ctp:40
+msgid "会社"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:210 View/Elements/daily_settlement_data.ctp:6
+#: View/Employees/admin_add.ctp:314 View/Employees/admin_edit.ctp:313
+msgid "office"
+msgstr "施設"
+
+#: View/Accounts/edit_profile.ctp:212
+#: View/BudgetSales/admin_revenue_budget.ctp:64
+#: View/BudgetSales/admin_revenue_sales.ctp:82
+#: View/EmployeePrizes/admin_employee_prizes_csv_import.ctp:69
+#: View/EmployeePrizes/admin_enter_prize_money.ctp:58
+#: View/Employees/admin_add.ctp:316 View/Employees/admin_edit.ctp:315
+#: View/Employees/admin_index.ctp:47
+msgid "事業所"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:221 View/Employees/admin_add.ctp:324
+#: View/Employees/admin_edit.ctp:323
+msgid "position"
+msgstr "役職"
+
+#: View/Accounts/edit_profile.ctp:223 View/Employees/admin_add.ctp:326
+#: View/Employees/admin_edit.ctp:325
+msgid "役職"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:229;231 View/Employees/admin_add.ctp:332;334
+#: View/Employees/admin_edit.ctp:331;333
+msgid "join date"
+msgstr "入社日"
+
+#: View/Accounts/edit_profile.ctp:245 View/Employees/admin_add.ctp:348
+#: View/Employees/admin_edit.ctp:347
+msgid "in office"
+msgstr "在職"
+
+#: View/Accounts/edit_profile.ctp:263 View/Employees/admin_add.ctp:366
+#: View/Employees/admin_edit.ctp:365
+msgid "postal code"
+msgstr "郵便番号"
+
+#: View/Accounts/edit_profile.ctp:271;273 View/Employees/admin_add.ctp:374;376
+#: View/Employees/admin_edit.ctp:373;375
+
+#: View/Accounts/edit_profile.ctp:282 View/Employees/admin_add.ctp:385
+#: View/Employees/admin_edit.ctp:384
+#, fuzzy
+msgid "municipality"
+msgstr "市区町村以下"
+
+#: View/Accounts/edit_profile.ctp:291 View/Employees/admin_add.ctp:394
+#: View/Employees/admin_edit.ctp:393
+msgid "municipal town"
+msgstr "市区町村以下"
+
+#: View/Accounts/edit_profile.ctp:307 View/Employees/admin_add.ctp:410
+#: View/Employees/admin_edit.ctp:409
+msgid "bank name"
+msgstr "銀行名"
+
+#: View/Accounts/edit_profile.ctp:312 View/Employees/admin_add.ctp:415
+#: View/Employees/admin_edit.ctp:414
+msgid "branch name"
+msgstr "支店名"
+
+#: View/Accounts/edit_profile.ctp:319 View/Employees/admin_add.ctp:422
+#: View/Employees/admin_edit.ctp:421
+msgid "account number"
+msgstr "口座番号"
+
+#: View/Accounts/edit_profile.ctp:324 View/Employees/admin_add.ctp:427
+#: View/Employees/admin_edit.ctp:426
+msgid "account name"
+msgstr "口座名義"
+
+#: View/Accounts/edit_profile.ctp:342 View/Employees/admin_add.ctp:444
+#: View/Employees/admin_edit.ctp:443
+msgid "basic salary"
+msgstr "基本給"
+
+#: View/Accounts/edit_profile.ctp:350 View/Employees/admin_add.ctp:449
+#: View/Employees/admin_edit.ctp:448
+msgid "lương ngày"
+msgstr "日給"
+
+#: View/Accounts/edit_profile.ctp:358 View/Employees/admin_add.ctp:454
+#: View/Employees/admin_edit.ctp:453
+msgid "lương giờ"
+msgstr "時給"
+
+#: View/Accounts/edit_profile.ctp:368 View/Employees/admin_add.ctp:461
+#: View/Employees/admin_edit.ctp:460
+msgid "social insurance money"
+msgstr "社会保険料金額"
+
+#: View/Accounts/edit_profile.ctp:375 View/Employees/admin_edit.ctp:465
+msgid "basis pension number"
+msgstr "基礎年金番号"
+
+#: View/Accounts/edit_profile.ctp:385 View/Employees/admin_add.ctp:475;521
+#: View/Employees/admin_edit.ctp:474;525
+msgid "手当"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:391;410 View/Employees/admin_add.ctp:481;512
+#: View/Employees/admin_edit.ctp:480;516
+msgid "phụ cấp"
+msgstr "手当"
+
+#: View/Accounts/edit_profile.ctp:435 View/Employees/admin_add.ctp:549
+#: View/Employees/admin_edit.ctp:553
+msgid "traffic type"
+msgstr "移動手段"
+
+#: View/Accounts/edit_profile.ctp:446 View/Employees/admin_add.ctp:560
+#: View/Employees/admin_edit.ctp:564
+msgid "traffic fee"
+msgstr "交通費額"
+
+#: View/Accounts/edit_profile.ctp:461 View/Employees/admin_add.ctp:575
+#: View/Employees/admin_edit.ctp:579
+#, fuzzy
+msgid "tên người liên lạc lúc cần"
+msgstr "緊急連絡先氏名"
+
+#: View/Accounts/edit_profile.ctp:466 View/Employees/admin_add.ctp:580
+#: View/Employees/admin_edit.ctp:584
+#, fuzzy
+msgid "tên Kana của người liên lạc lúc cần"
+msgstr "緊急連絡先氏名（かな）"
+
+#: View/Accounts/edit_profile.ctp:471 View/Employees/admin_add.ctp:585
+#: View/Employees/admin_edit.ctp:589
+msgid "sos phone"
+msgstr "緊急連絡先電話番号"
+
+#: View/Accounts/edit_profile.ctp:476 View/Employees/admin_add.ctp:590
+#: View/Employees/admin_edit.ctp:594
+#, fuzzy
+msgid "địa chỉ liên lạc lúc cần"
+msgstr "緊急連絡先TEL"
+
+#: View/Accounts/edit_profile.ctp:492;529;530;564
+#: View/Employees/admin_add.ctp:606;643;644;678
+#: View/Employees/admin_edit.ctp:610;647;648;682
+msgid "phụ dưỡng gia đình"
+msgstr "扶養家族"
+
+#: View/Accounts/edit_profile.ctp:499;538 View/Employees/admin_add.ctp:613;652
+#: View/Employees/admin_edit.ctp:617;656
+msgid "kana name"
+msgstr "ふりがな"
+
+#: View/Accounts/edit_profile.ctp:511;550 View/Employees/admin_add.ctp:625;664
+#: View/Employees/admin_edit.ctp:629;668
+msgid "quan hệ"
+msgstr "関係"
+
+#: View/Accounts/edit_profile.ctp:514;553 View/Employees/admin_add.ctp:628;667
+#: View/Employees/admin_edit.ctp:632;671
+msgid "công việc"
+msgstr "仕事"
+
+#: View/Accounts/edit_profile.ctp:582 View/Categories/admin_edit.ctp:14
+#: View/Employees/admin_add.ctp:696 View/Employees/admin_edit.ctp:700
+msgid "save"
+msgstr "保存"
+
+#: View/Accounts/edit_profile.ctp:616;624;632;644;656;664;672;680;688;696;704;712;750
+#: View/Employees/admin_add.ctp:37;45;53;65;77;85;93;101;109;117;125;133;153;173
+#: View/Employees/admin_edit.ctp:37;45;53;65;77;85;93;101;109;117;125;133;171
+msgid "このフィルドに記入して下さい。"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:636 View/Employees/admin_add.ctp:57
+#: View/Employees/admin_edit.ctp:57
+msgid "メールが正しくありません。"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:648 View/Employees/admin_add.ctp:69
+#: View/Employees/admin_edit.ctp:69
+msgid "この電話番号は使用できません。"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:716 View/Employees/admin_add.ctp:137
+#: View/Employees/admin_edit.ctp:137
+msgid "ユーザは6文字以上です。"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:720 View/Employees/admin_add.ctp:141
+#: View/Employees/admin_edit.ctp:141
+msgid "ユーザ名が長すぎます。最長は50文字以内です。"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:733 View/Employees/admin_add.ctp:165
+#: View/Employees/admin_edit.ctp:154
+msgid "パスワードは無効な文字を含んでいます。"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:737 View/Employees/admin_add.ctp:157
+#: View/Employees/admin_edit.ctp:158
+msgid "パスワードは6文字以上です。"
+msgstr ""
+
+#: View/Accounts/edit_profile.ctp:742 View/Employees/admin_add.ctp:161
+#: View/Employees/admin_edit.ctp:163
+msgid "パスワードが長すぎます。最長は32文字以内です。"
+msgstr ""
+
+#: View/Accounts/forgot_password.ctp:8
+msgid "Mật khẩu mới của bạn đả được gửi đến email:"
+msgstr ""
+
+#: View/Accounts/forgot_password.ctp:9
+msgid "Hảy kiểm tra email của bạn."
+msgstr ""
+
+#: View/Accounts/forgot_password.ctp:11
+msgid "click vào đây để tiếp tục đăng nhập vào hệ thống."
+msgstr ""
+
+#: View/Accounts/forgot_password.ctp:29
+msgid "Lấy lại mật khẩu"
+msgstr ""
+
+#: View/Accounts/login.ctp:32
+#, fuzzy
+msgid "I forgot my password"
+msgstr "パスワード確認"
+
+#: View/BudgetSales/admin_budget_csv_import.ctp:28
+#: View/BudgetSales/admin_revenue_budget.ctp:31
+#: View/Employees/admin_csv_import.ctp:34
+msgid "予算設定"
+msgstr ""
+
+#: View/BudgetSales/admin_budget_csv_import.ctp:49
+#: View/BudgetSales/admin_expense_csv_import.ctp:49
+#: View/BudgetSales/admin_expense_sales.ctp:74
+#: View/BudgetSales/admin_revenue_budget.ctp:83
+#: View/BudgetSales/admin_revenue_sales.ctp:101
+#: View/BudgetSales/admin_sales_csv_import.ctp:49
+#: View/EmployeePrizes/admin_employee_prizes_csv_import.ctp:88
+#: View/EmployeePrizes/admin_enter_prize_money.ctp:110
+#: View/Employees/admin_csv_import.ctp:63 View/Employees/admin_index.ctp:55
+msgid "CSVアップロード"
+msgstr ""
+
+#: View/BudgetSales/admin_budget_csv_import.ctp:49
+#: View/BudgetSales/admin_expense_csv_import.ctp:49
+#: View/BudgetSales/admin_sales_csv_import.ctp:49
+msgid "dữ liệu hiện tại sẽ có thể bị ghi đè、よろしいですか。"
+msgstr ""
+
+#: View/BudgetSales/admin_expense_csv_import.ctp:28
+#: View/BudgetSales/admin_expense_sales.ctp:31
+msgid "月次費用入力"
+msgstr ""
+
+#: View/BudgetSales/admin_expense_sales.ctp:63
+#: View/BudgetSales/admin_revenue_sales.ctp:90
+#: View/EmployeePrizes/admin_employee_prizes_csv_import.ctp:77
+#: View/EmployeePrizes/admin_enter_prize_money.ctp:66
+#: View/Frontend/budget_ranking.ctp:37 View/Frontend/budget_sale.ctp:8
+#: View/Frontend/daily_settlement.ctp:32 View/PrizeRanking/index.ctp:37
+msgid "年 - 月"
+msgstr ""
+
+#: View/BudgetSales/admin_expense_sales.ctp:86
+#: View/BudgetSales/admin_revenue_budget.ctp:95
+#: View/BudgetSales/admin_revenue_sales.ctp:113
+#: View/EmployeePrizes/admin_enter_prize_money.ctp:109
+msgid "保存"
+msgstr ""
+
+#: View/BudgetSales/admin_expense_sales.ctp:87
+#: View/BudgetSales/admin_revenue_budget.ctp:96
+#: View/BudgetSales/admin_revenue_sales.ctp:115
+msgid "入力キャンセル"
+msgstr ""
+
+#: View/BudgetSales/admin_expense_sales.ctp:87
+#: View/BudgetSales/admin_revenue_budget.ctp:96
+#: View/BudgetSales/admin_revenue_sales.ctp:115
+msgid "保存していない項目は削除されます。よろしいですか。"
+msgstr ""
+
+#: View/BudgetSales/admin_revenue_budget.ctp:72
+msgid "年度"
+msgstr ""
+
+#: View/BudgetSales/admin_revenue_sales.ctp:50
+#: View/BudgetSales/admin_sales_csv_import.ctp:28
+msgid "実績入力"
+msgstr ""
+
+#: View/Categories/admin_add.ctp:9 View/Categories/admin_edit.ctp:9
+msgid "Parent"
+msgstr "親"
+
+#: View/Categories/admin_add.ctp:10 View/Categories/admin_edit.ctp:10
+msgid "Category name"
+msgstr "カテゴリー名"
+
+#: View/Categories/admin_add.ctp:14
+msgid "Registration"
+msgstr "登録"
+
+#: View/Categories/admin_index.ctp:9
+msgid "Add Category"
+msgstr "カテゴリー追加"
+
+#: View/Categories/admin_index.ctp:18
+msgid "list Categories"
+msgstr "カテゴリー一覧"
+
+#: View/Categories/view.ctp:2
+msgid "Category"
+msgstr "カテゴリー"
+
+#: View/Categories/view.ctp:4;47
+msgid "Id"
+msgstr "ID"
+
+#: View/Categories/view.ctp:9
+msgid "Parent Category"
+msgstr "親カテゴリー"
+
+#: View/Categories/view.ctp:19;50
+msgid "Created"
+msgstr "作成完了"
+
+#: View/Categories/view.ctp:24;51
+msgid "Updated"
+msgstr "更新完了"
+
+#: View/Categories/view.ctp:32;52 View/Users/admin_view.ctp:27
+msgid "Actions"
+msgstr "アクション"
+
+#: View/Categories/view.ctp:34
+msgid "Edit Category"
+msgstr "カテゴリー編集"
+
+#: View/Categories/view.ctp:35
+msgid "Delete Category"
+msgstr "削除完了"
+
+#: View/Categories/view.ctp:35;64 View/Users/admin_view.ctp:30
+msgid "Are you sure you want to delete # %s?"
+msgstr "# %sを削除しても宜しいでしょうか?"
+
+#: View/Categories/view.ctp:36;38
+msgid "List Categories"
+msgstr "カテゴリー一覧"
+
+#: View/Categories/view.ctp:37
+msgid "New Category"
+msgstr "新規カテゴリー"
+
+#: View/Categories/view.ctp:39
+msgid "New Parent Category"
+msgstr "新親カテゴリー"
+
+#: View/Categories/view.ctp:43
+msgid "Related Categories"
+msgstr "関連カテゴリー"
+
+#: View/Categories/view.ctp:48
+msgid "Parent Id"
+msgstr "親ID"
+
+#: View/Categories/view.ctp:62
+msgid "View"
+msgstr "ビュー"
+
+#: View/Categories/view.ctp:63 View/Posts/admin_index.ctp:153
+msgid "Edit"
+msgstr "編集"
+
+#: View/Categories/view.ctp:64 View/OfficeGroups/setting_edit.ctp:54
+#: View/OfficeGroups/setting_edit_bak.ctp:51 View/Posts/admin_index.ctp:31
+#: View/Widget/setting_edit.ctp:42
+msgid "Delete"
+msgstr "削除"
+
+#: View/Categories/view.ctp:73
+msgid "New Child Category"
+msgstr "新しい子カテゴリー"
+
+#: View/Companies/admin_add.ctp:11 View/Companies/admin_edit.ctp:10
+msgid "group company"
+msgstr "グループ"
+
+#: View/Companies/admin_add.ctp:15 View/Companies/admin_edit.ctp:14
+msgid "Submit"
+msgstr "承認"
+
+#: View/Companies/admin_index.ctp:9
+msgid "Add company"
+msgstr "会社追加"
+
+#: View/Dashboard/index.ctp:67 View/Frontend/index.ctp:67
+msgid "Bài viết mới nhất"
+msgstr "最新記事"
+
+#: View/Dashboard/index.ctp:67 View/Frontend/index.ctp:67
+msgid "詳細を見る"
+msgstr ""
+
+#: View/Elements/atopnav.ctp:30 View/Elements/fheader.ctp:68
+msgid "Logout"
+msgstr "ログアウト"
+
+#: View/Elements/avatar_cropie_modal.ctp:6
+msgid "Avatar"
+msgstr "プロファイル写真"
+
+#: View/Elements/budget_ranking_data.ctp:42
+msgid "前回"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:8
+msgid "1月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:9
+msgid "2月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:10
+msgid "3月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:11
+msgid "4月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:12
+msgid "5月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:13
+msgid "6月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:14
+msgid "7月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:15
+msgid "8月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:16
+msgid "9月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:17
+msgid "10月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:18
+msgid "11月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:19
+msgid "12月"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:91
+#: View/Elements/sales_expense_table.ctp:20
+msgid "人件費"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:103
+#: View/Elements/sales_expense_table.ctp:36
+msgid "残業費"
+msgstr ""
+
+#: View/Elements/budget_revenue_table.ctp:178
+msgid "営業利益"
+msgstr ""
+
+#: View/Elements/csv_modal_import.ctp:6
+msgid "CSV Import"
+msgstr "CSV入力"
+
+#: View/Elements/csv_modal_import.ctp:34
+msgid "アップロード"
+msgstr ""
+
+#: View/Elements/daily_settlement_data.ctp:7
+msgid "revenue budget"
+msgstr "予算"
+
+#: View/Elements/daily_settlement_data.ctp:8
+msgid "revenue sales"
+msgstr "売上"
+
+#: View/Elements/daily_settlement_data.ctp:9;12;15
+msgid "rates"
+msgstr "達成率"
+
+msgid "achievement rate"
+msgstr "達成率"
+
+#: View/Elements/daily_settlement_data.ctp:10
+msgid "profit budget"
+msgstr "営業利益予算"
+
+#: View/Elements/daily_settlement_data.ctp:11
+msgid "profit sales"
+msgstr "営業利益"
+
+#: View/Elements/daily_settlement_data.ctp:13
+msgid "labor cost"
+msgstr "人件費"
+
+#: View/Elements/daily_settlement_data.ctp:14
+msgid "overtime"
+msgstr "残業"
+
+#: View/Elements/daily_settlement_data.ctp:16
+msgid "compare past year"
+msgstr "昨年対比"
+
+#: View/Elements/fheader.ctp:64
+msgid "Admin"
+msgstr "アドミン"
+
+#: View/Elements/last_year_comparison.ctp:4
+msgid "Empty data."
+msgstr "空のデータ"
+
+#: View/Elements/last_year_comparison.ctp:56
+msgid "前回%d位"
+msgstr ""
+
+#: View/Elements/paginator.ctp:7
+msgid "Prev"
+msgstr "戻る"
+
+#: View/Elements/paginator.ctp:11
+msgid "Next"
+msgstr "次"
+
+#: View/Elements/paginator.ctp:18
+msgid ""
+"<div id=\"rows_info_pag_demo_grid1\" class=\"-bottom10\">{:count}件中{:"
+"start}-{:end}件表示(ページ{:page}/{:pages})</div>"
+msgstr ""
+
+#: View/Emails/html/forgot_password.ctp:1
+#: View/Emails/text/forgot_password.ctp:1
+msgid "Xin chào:"
+msgstr ""
+
+#: View/Emails/html/forgot_password.ctp:8
+#: View/Emails/text/forgot_password.ctp:8
+msgid "Mật khẩu mới của bạn là "
+msgstr ""
+
+#: View/EmployeePrizes/admin_employee_prizes_csv_import.ctp:39
+#: View/EmployeePrizes/admin_enter_prize_money.ctp:27
+msgid "賞金入力"
+msgstr ""
+
+#: View/EmployeePrizes/admin_enter_prize_money.ctp:77
+msgid "賞金"
+msgstr ""
+
+#: View/Employees/admin_add.ctp:145
+msgid "ユーザは無効な文字を含んでいます。"
+msgstr ""
+
+#: View/Employees/admin_add.ctp:216 View/Employees/admin_edit.ctp:215
+msgid "employee registration"
+msgstr "従業員登録"
+
+#: View/Employees/admin_add.ctp:466
+msgid "basic pension number"
+msgstr "基礎年金番号"
+
+#: View/Employees/admin_add.ctp:489
+msgid "夜勤手当"
+msgstr ""
+
+#: View/Employees/admin_add.ctp:494 View/Employees/admin_edit.ctp:494
+msgid "night shift allowance"
+msgstr ""
+
+#: View/Employees/admin_add.ctp:536 View/Employees/admin_edit.ctp:540
+#, fuzzy
+msgid "license"
+msgstr "資格"
+
+#: View/Employees/admin_add.ctp:542 View/Employees/admin_edit.ctp:546
+#, fuzzy
+msgid "occupation"
+msgstr "職種"
+
+#: View/Employees/admin_index.ctp:18
+msgid "ユーザー一覧"
+msgstr ""
+
+#: View/Employees/admin_index.ctp:54
+msgid "新規追加"
+msgstr ""
+
+#: View/Errors/403.ctp:77
+msgid "あなたはこのページの権限がありません。"
+msgstr ""
+
+#: View/Errors/403.ctp:78 View/Errors/404.ctp:78 View/Errors/500.ctp:78
+msgid "お手数です。"
+msgstr ""
+
+#: View/Errors/403.ctp:79 View/Errors/404.ctp:79 View/Errors/500.ctp:79
+msgid "ホームページ"
+msgstr ""
+
+#: View/Errors/404.ctp:77
+msgid "お探しのページが見つかりませんでした。"
+msgstr ""
+
+#: View/Errors/500.ctp:77
+msgid "サーバー内部のエラーにより表示できません。"
+msgstr ""
+
+#: View/Frontend/budget_ranking.ctp:32 View/PrizeRanking/index.ctp:32
+msgid "budget ranking"
+msgstr "予算ランキング"
+
+#: View/Frontend/budget_ranking.ctp:32 View/Frontend/budget_sale.ctp:6
+#: View/Frontend/daily_settlement.ctp:26 View/PrizeRanking/index.ctp:32
+msgid "更新"
+msgstr ""
+
+#: View/Frontend/budget_ranking.ctp:48;63 View/PrizeRanking/index.ctp:48;63
+msgid "件中"
+msgstr ""
+
+#: View/Frontend/budget_ranking.ctp:48;63 View/PrizeRanking/index.ctp:48;63
+msgid "件表示"
+msgstr ""
+
+#: View/Frontend/budget_ranking.ctp:48;63 View/PrizeRanking/index.ctp:48;63
+msgid "ページ"
+msgstr ""
+
+#: View/Frontend/budget_sale.ctp:6
+msgid "Last year comparison"
+msgstr "昨年対比"
+
+#: View/Frontend/daily_settlement.ctp:26
+msgid "daily settlement"
+msgstr "日次決算"
+
+#: View/Frontend/list_post.ctp:27
+msgid "Danh sách bài viết"
+msgstr "記事一覧"
+
+#: View/Frontend/list_post.ctp:32
+msgid "Loadding"
+msgstr "ローディング中"
+
+#: View/Frontend/post_view.ctp:6
+msgid ""
+"<span itemprop=\"name\">Home</span><meta property=\"position\" content=\"1\">"
+msgstr ""
+
+#: View/Frontend/post_view.ctp:9
+msgid ""
+"<span itemprop=\"name\">posts</span><meta property=\"position\" content="
+"\"2\">"
+msgstr ""
+
+#: View/Frontend/post_view.ctp:46
+msgid "Bài viết liên quan"
+msgstr "関連記事"
+
+#: View/Frontend/user_page.ctp:31
+msgid "あなた"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:36
+msgid "平均"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:49
+msgid "あなたの年間報奨金予定"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:51
+msgid "年"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:51
+msgid "月"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:51
+msgid "日"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:51
+msgid "現在"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:55;58
+msgid "pt"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:57
+msgid "みなの平均"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:63
+msgid "年間獲得推移"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:70
+msgid "報奨金明細"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:74
+msgid "予算達成賞"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:79
+msgid "昨年対比達成賞"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:84
+msgid "人材紹介報酬"
+msgstr ""
+
+#: View/Frontend/user_page.ctp:91
+msgid ""
+"予測は現在までの獲得金額から今後獲得出来るであろう金額を予測したものです。確"
+"定の金額ではありません。"
+msgstr ""
+
+#: View/Helper/GridHelper.php:32;87
+msgid ""
+"<div id=\"rows_info_pag_demo_grid1\" class=\"pull-right margin-bottom10\">{:"
+"count}件中{:start}-{:end}件表示(ページ{:page}/{:pages})</div>"
+msgstr ""
+
+#: View/OfficeGroups/setting_edit.ctp:44
+#: View/OfficeGroups/setting_edit_bak.ctp:41 View/Widget/setting_edit.ctp:37
+msgid "Update"
+msgstr "変更"
+
+#: View/OfficeGroups/setting_edit.ctp:72
+#: View/OfficeGroups/setting_edit_bak.ctp:69
+#, fuzzy
+msgid "Position"
+msgstr "役職"
+
+#: View/OfficeGroups/setting_edit.ctp:79
+#: View/OfficeGroups/setting_edit_bak.ctp:76 View/Posts/admin_edit.ctp:12
+#: View/Posts/admin_index.ctp:12 View/Widget/setting_edit.ctp:62
+msgid "Add new"
+msgstr "新規追加"
+
+#: View/Offices/admin_edit.ctp:48 View/Offices/admin_index.ctp:55
+msgid "Company"
+msgstr "会社名"
+
+#: View/Offices/admin_edit.ctp:75
+#, fuzzy
+msgid "Municipal town"
+msgstr "市区町村以下"
+
+#: View/Offices/admin_edit.ctp:76
+msgid "Phone"
+msgstr "電話"
+
+#: View/Offices/admin_edit.ctp:83
+msgid "Fax"
+msgstr "ファクス"
+
+#: View/Offices/admin_edit.ctp:83
+msgid "fax number"
+msgstr "FAX番号"
+
+#: View/Offices/admin_edit.ctp:84
+msgid "Office number"
+msgstr "事業所番号"
+
+#: View/Offices/admin_edit.ctp:85
+msgid "Day capacity"
+msgstr "デイ定員人数"
+
+#: View/Offices/admin_edit.ctp:102
+msgid "Remuneration factor"
+msgstr "処遇改善加算"
+
+#: View/Offices/admin_edit.ctp:103
+msgid "Region classification factor"
+msgstr "地域区分"
+
+#: View/Offices/admin_edit.ctp:114
+msgid "Business start"
+msgstr "営業開始時間"
+
+#: View/Offices/admin_edit.ctp:115
+msgid "Business end"
+msgstr "営業終了時間"
+
+#: View/Offices/admin_edit.ctp:116
+msgid "Service start"
+msgstr "サービス提供時間"
+
+#: View/Offices/admin_edit.ctp:117
+msgid "Service end"
+msgstr "サービス終了時間"
+
+#: View/Offices/admin_edit.ctp:127
+#, fuzzy
+msgid "Additions"
+msgstr "アクション"
+
+#: View/Offices/admin_edit.ctp:147;166
+msgid "Price"
+msgstr ""
+
+#: View/Offices/admin_edit.ctp:160
+msgid "自費料金単価%d"
+msgstr ""
+
+#: View/Offices/admin_index.ctp:16
+msgid "Thêm office"
+msgstr "施設追加"
+
+#: View/Offices/admin_index.ctp:31;33 View/SettingApi/admin_index.ctp:30
+msgid "Office Name"
+msgstr "施設名"
+
+#: View/Offices/admin_index.ctp:54
+#, fuzzy
+msgid "Office name"
+msgstr "施設名"
+
+#: View/Offices/admin_index.ctp:57 View/Posts/admin_index.ctp:130;223
+msgid "Action"
+msgstr "アクション"
+
+#: View/Posts/admin_index.ctp:29
+msgid "Bulk Actions"
+msgstr "一括"
+
+#: View/Posts/admin_index.ctp:33
+msgid "Execute"
+msgstr "実行"
+
+#: View/Posts/admin_index.ctp:72
+msgid "All Date"
+msgstr "すべての日"
+
+#: View/Posts/admin_index.ctp:92
+msgid "All Categories"
+msgstr "全てのカテゴリー"
+
+#: View/Posts/admin_index.ctp:106
+msgid "Filter"
+msgstr "絞込"
+
+#: View/Posts/admin_index.ctp:126;219
+msgid "Title"
+msgstr "タイトル"
+
+#: View/Posts/admin_index.ctp:127;220
+msgid "Author"
+msgstr "著作権"
+
+#: View/Posts/admin_index.ctp:129;222
+msgid "Date"
+msgstr "日付"
+
+#: View/Posts/admin_index.ctp:206
+#, fuzzy
+msgid "Không có bài viết nào"
+msgstr "記事一覧"
+
+#: View/SettingApi/admin_index.ctp:31
+msgid "ほのぼのNext Store ID"
+msgstr ""
+
+#: View/SettingApi/admin_index.ctp:45
+msgid "Office không có trong hệ thống."
+msgstr ""
+
+#: View/Users/admin_edit.ctp:9 View/Users/admin_index.ctp:95
+msgid "%sを本当に削除しますか。"
+msgstr ""
+
+#: View/Users/admin_index.ctp:110
+msgid "新規登録"
+msgstr ""
+
+#: View/Users/admin_view.ctp:2
+msgid "Account"
+msgstr "アカウント"
+
+#: View/Users/admin_view.ctp:14
+msgid "Full Name"
+msgstr "氏名"
+
+#: View/Users/admin_view.ctp:19
+msgid "Account Type"
+msgstr "アカウントタイプ"
+
+#: View/Users/admin_view.ctp:29
+msgid "Edit Account"
+msgstr "アカウント編集"
+
+#: View/Users/admin_view.ctp:30
+msgid "Delete Account"
+msgstr "アカウント削除"
+
+#: View/Users/admin_view.ctp:31
+msgid "List Accounts"
+msgstr "アカウント一覧"
+
+#: View/Users/admin_view.ctp:32
+msgid "New Account"
+msgstr "新アカウント"
+
+#: Model/Account.php:validation for field name;validation email;validation
+#: username;validation password;validation confirm_password;validation
+#: company_id Model/Employee.php:validation name Model/Prize.php:validation
+msgid "please fill out this field."
+msgstr "このフィルドに記入して下さい。"
+
+#: Model/Account.php:validation for field email
+#, fuzzy
+msgid "email đã được sự dụng. Hảy thử dùng một email khác."
+msgstr "ユーザ名は既に使用されています。他の名を試して下さい。"
+
+#: Model/Account.php:validation for field email
+msgid "Please supply a valid email address."
+msgstr "無効なメールアドレス"
+
+#: Model/Account.php:validation for field username
+msgid "username is too long."
+msgstr "ユーザは長すぎます。"
+
+#: Model/Account.php:validation for field username
+msgid "username must be at least 6 characters long."
+msgstr "ユーザは6文字以上です。"
+
+#: Model/Account.php:validation for field username
+msgid "username contains invalid characters."
+msgstr "ユーザは無効な文字を含んでいます。"
+
+#: Model/Account.php:validation for field username
+msgid "the username is already been used"
+msgstr "ユーザ名は既に使用されています。"
+
+#: Model/Account.php:validation for field username
+msgid "username đã được sự dụng. Hảy thử dùng một username khác."
+msgstr "ユーザ名は既に使用されています。他の名を試して下さい。"
+
+#: Model/Account.php:validation for field password
+msgid "password is too long."
+msgstr "パスワードは長すぎます。"
+
+#: Model/Account.php:validation for field password
+msgid "password must be at least 6 characters long."
+msgstr "パスワードは6文字以上です。"
+
+#: Model/Account.php:validation for field confirm_password
+msgid "mật khẩu này không khớp. Thử lại?"
+msgstr "このパスワードは正しくありません。もう一度試して下さい。"
+
+#: Model/Admin.php:validation for field account_id
+#: Model/PostCategory.php:validation post_id;validation category_id
+msgid "numeric"
+msgstr "ニューメリック"
+
+#: Model/Admin.php:validation for field data_access_level;validation
+#: name;validation avatar Model/Post.php:validation type
+msgid "notEmpty"
+msgstr "空ではありません。"
+
+#: Model/BusinessCategory.php:validation for field name
+#: Model/Office.php:validation name;validation postal_code;validation
+#: country;validation city;validation address;validation phone;validation
+#: fax;validation office_number;validation remuneration_factor;validation
+#: region_classification_factor;validation office_group_id
+#: Model/OfficeSelfPaid.php:validation price
+msgid "Not empty."
+msgstr "空ではありません。"
+
+#: Model/BusinessCategory.php:validation for field name
+msgid "Name exits."
+msgstr "名前は既に存在しています。"
+
+#: Model/BusinessCategory.php:validation for field name
+#: Model/CompanyGroup.php:validation Model/Division.php:validation
+#: Model/GroupPermission.php:validation Model/Occupation.php:validation
+#: Model/OfficeGroup.php:validation Model/Position.php:validation
+#: Model/Prize.php:validation
+msgid "Độ dài ký tự nhập vào trong khoảng %d-%d"
+msgstr "文字数は%dから%dまでです。"
+
+#: Model/Category.php:validation for field name Model/Company.php:validation
+#: company_group_id;validation
+msgid "Trường này là bắt buộc."
+msgstr "このフィルドは必須です。"
+
+#: Model/Category.php:validation for field name
+msgid "Đã được sử dụng. Hãy thử tên khác"
+msgstr "既に使用されています。他の名を試して下さい。"
+
+#: Model/Company.php:validation for field name
+msgid "Tên công ty đã tồn tài. Hãy thử tên khác"
+msgstr "会社名は既に存在しています。他の名を試して下さい。"
+
+#: Model/CompanyGroup.php:validation for field name
+#: Model/Division.php:validation Model/GroupPermission.php:validation
+#: Model/Occupation.php:validation Model/OfficeGroup.php:validation
+#: Model/Position.php:validation
+msgid "Tên không được để trống."
+msgstr "名前は空に空にならないようにしてください。"
+
+#: Model/CompanyGroup.php:validation for field name
+#: Model/Division.php:validation Model/Evaluation.php:validation
+#: Model/GroupPermission.php:validation Model/License.php:validation
+#: Model/Occupation.php:validation Model/OfficeGroup.php:validation
+msgid "Tên đã được sử dụng, hãy thử tên khác."
+msgstr "名前は既に使用されています。他の名を試して下さい。"
+
+#: Model/CompanyGroup.php:validation for field group_permission_id
+msgid "Nhóm quyền không được để trống."
+msgstr "権限は空にならないようにしてください。"
+
+#: Model/Employee.php:validation for field name
+msgid "name is too long."
+msgstr "名前は長すぎます。"
+
+#: Model/Employee.php:validation for field gender;validation
+#: kana_name;validation basic_salary;validation hourly_wage;validation
+#: daily_wage;validation traffic_fee;validation
+#: social_insurance_money;validation postal_code;validation
+#: prefecture;validation municipality;validation municipal_town;validation
+#: phone;validation email;validation basis_pension_number;validation
+#: sos_contact_person;validation sos_contact_person_kana;validation
+#: sos_phone;validation sos_address;validation bank_name;validation
+#: branch_name;validation card_type;validation account_number;validation
+#: account_name
+msgid "please fill out this field"
+msgstr "このフィルドに記入して下さい。"
+
+#: Model/Evaluation.php:validation for field name Model/License.php:validation
+msgid "Không được để trống trường này."
+msgstr "空にならないようにしてください。"
+
+#: Model/Evaluation.php:validation for field name Model/License.php:validation
+msgid "Tối đa 100 ký tự."
+msgstr "最大は100文字までです。"
+
+#: Model/Office.php:validation for field postal_code
+msgid "Tối đã 10 ký tự"
+msgstr "最大は100文字までです。"
+
+#: Model/OfficeSelfPaid.php:validation for field price
+#, fuzzy
+msgid "Please enter only numbers."
+msgstr "基礎年金番号"
+
+#: Model/Position.php:validation for field name
+msgid "Đã tồn tại bản ghi này."
+msgstr "この記録は既に存在しています。"
+
+#: Model/Post.php:validation for field title;validation short_description
+msgid "Your custom message here"
+msgstr "カスタムメッセージはこちらです。"
+
+#: Model/Prize.php:validation for field name
+msgid "the prize name is already exists."
+msgstr "賞金は既に存在しています。"
+
+#: View/Errors/error400.ctp:19 View/Errors/error500.ctp:19
+msgid "Error"
+msgstr ""
+
+#: View/Errors/error400.ctp:21
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: View/Errors/error500.ctp:20
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: View/Helper/CkFormHelper.php:135
+msgid "Error in field %s"
+msgstr ""
+
+#: View/Layouts/error.ctp:17
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: View/Pages/home.ctp:14
+msgid "Release Notes for CakePHP %s."
+msgstr ""
+
+#: View/Pages/home.ctp:16
+msgid "Read the changelog"
+msgstr ""
+
+#: View/Pages/home.ctp:25
+msgid "URL rewriting is not properly configured on your server."
+msgstr ""
+
+#: View/Pages/home.ctp:34
+msgid "Your version of PHP is 5.2.8 or higher."
+msgstr ""
+
+#: View/Pages/home.ctp:38
+msgid ""
+"Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
+msgstr ""
+
+#: View/Pages/home.ctp:47
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: View/Pages/home.ctp:51
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: View/Pages/home.ctp:61
+msgid "The %s is being used for core caching. To change the config edit %s"
+msgstr ""
+
+#: View/Pages/home.ctp:65
+msgid "Your cache is NOT working. Please check the settings in %s"
+msgstr ""
+
+#: View/Pages/home.ctp:75
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: View/Pages/home.ctp:80
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: View/Pages/home.ctp:82
+#, fuzzy
+msgid "Rename %s to %s"
+msgstr "名前は長すぎます。"
+
+#: View/Pages/home.ctp:107
+msgid "CakePHP is able to connect to the database."
+msgstr ""
+
+#: View/Pages/home.ctp:111
+msgid "CakePHP is NOT able to connect to the database."
+msgstr ""
+
+#: View/Pages/home.ctp:124
+msgid "PCRE has not been compiled with Unicode support."
+msgstr ""
+
+#: View/Pages/home.ctp:126
+msgid ""
+"Recompile PCRE with Unicode support by adding <code>--enable-unicode-"
+"properties</code> when configuring"
+msgstr ""
+
+#: View/Pages/home.ctp:135
+msgid "DebugKit plugin is present"
+msgstr ""
+
+#: View/Pages/home.ctp:139
+msgid ""
+"DebugKit is not installed. It will help you inspect and debug different "
+"aspects of your application."
+msgstr ""
+
+#: View/Pages/home.ctp:141
+msgid "You can install it from %s"
+msgstr ""
+
+#: View/Pages/home.ctp:147
+msgid "Editing this Page"
+msgstr ""
+
+#: View/Pages/home.ctp:150
+msgid ""
+"To change the content of this page, edit: %s.<br />\n"
+"To change its layout, edit: %s.<br />\n"
+"You can also add some CSS styles for your pages at: %s."
+msgstr ""
+
+#: View/Pages/home.ctp:157
+msgid "Getting Started"
+msgstr ""
+
+#: View/Pages/home.ctp:161
+msgid "New"
+msgstr ""
+
+#: View/Pages/home.ctp:161
+msgid "CakePHP 2.0 Docs"
+msgstr ""
+
+#: View/Pages/home.ctp:170
+msgid "The 15 min Blog Tutorial"
+msgstr ""
+
+#: View/Pages/home.ctp:177
+msgid "Official Plugins"
+msgstr ""
+
+#: View/Pages/home.ctp:182
+msgid ""
+"provides a debugging toolbar and enhanced debugging tools for CakePHP "
+"applications."
+msgstr ""
+
+#: View/Pages/home.ctp:186
+msgid ""
+"contains various localized validation classes and translations for specific "
+"countries"
+msgstr ""
+
+#: View/Pages/home.ctp:191
+msgid "More about CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:193
+msgid ""
+"CakePHP is a rapid development framework for PHP which uses commonly known "
+"design patterns like Active Record, Association Data Mapping, Front "
+"Controller and MVC."
+msgstr ""
+
+#: View/Pages/home.ctp:196
+msgid ""
+"Our primary goal is to provide a structured framework that enables PHP users "
+"at all levels to rapidly develop robust web applications, without any loss "
+"to flexibility."
+msgstr ""
+
+#: View/Pages/home.ctp:201
+msgid "The Rapid Development Framework"
+msgstr ""
+
+#: View/Pages/home.ctp:202
+msgid "CakePHP Documentation"
+msgstr ""
+
+#: View/Pages/home.ctp:203
+msgid "Your Rapid Development Cookbook"
+msgstr ""
+
+#: View/Pages/home.ctp:204
+msgid "CakePHP API"
+msgstr ""
+
+#: View/Pages/home.ctp:205
+msgid "Quick API Reference"
+msgstr ""
+
+#: View/Pages/home.ctp:206
+msgid "The Bakery"
+msgstr ""
+
+#: View/Pages/home.ctp:207
+msgid "Everything CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:208
+msgid "CakePHP Plugins"
+msgstr ""
+
+#: View/Pages/home.ctp:209
+msgid "A comprehensive list of all CakePHP plugins created by the community"
+msgstr ""
+
+#: View/Pages/home.ctp:210
+msgid "CakePHP Community Center"
+msgstr ""
+
+#: View/Pages/home.ctp:211
+msgid "Everything related to the CakePHP community in one place"
+msgstr ""
+
+#: View/Pages/home.ctp:212
+msgid "CakePHP Google Group"
+msgstr ""
+
+#: View/Pages/home.ctp:213
+msgid "Community mailing list"
+msgstr ""
+
+#: View/Pages/home.ctp:215
+msgid "Live chat about CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:216
+msgid "CakePHP Code"
+msgstr ""
+
+#: View/Pages/home.ctp:217
+msgid "Find the CakePHP code on GitHub and contribute to the framework"
+msgstr ""
+
+#: View/Pages/home.ctp:218;219
+msgid "CakePHP Issues"
+msgstr ""
+
+#: View/Pages/home.ctp:220;221
+msgid "CakePHP Roadmaps"
+msgstr ""
+
+#: View/Pages/home.ctp:222
+msgid "Training"
+msgstr ""
+
+#: View/Pages/home.ctp:223
+msgid "Join a live session and get skilled with the framework"
+msgstr ""
+
+#: View/Pages/home.ctp:224
+msgid "CakeFest"
+msgstr ""
+
+#: View/Pages/home.ctp:225
+msgid "Don't miss our annual CakePHP conference"
+msgstr ""
+
+#: View/Pages/home.ctp:226
+msgid "Cake Software Foundation"
+msgstr ""
+
+#: View/Pages/home.ctp:227
+msgid "Promoting development related to CakePHP"
+msgstr ""
+
+#: webroot/test.php:103
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+msgid "Allow"
+msgstr "許可"
+
+msgid "Deny"
+msgstr "禁止"
+
+msgid "Quyết toán hàng ngày"
+msgstr "日次決算"
+
+msgid "failure"
+msgstr "失敗"
+
+msgid "files"
+msgstr "ファイル"
+
+msgid "dữ liệu hiện tại sẽ có thể bị ghi đè"
+msgstr "データが重ね書きされます"
+
+msgid "tên người liên lạc lúc cần"
+msgstr "緊急連絡先氏名"
+
+msgid "tên Kana của người liên lạc lúc cần"
+msgstr "緊急連絡先かな"
+
+msgid "dữ liệu hiện tại sẽ có thể bị ghi đè、よろしいですか。"
+msgstr "データが重ね書きされます、よろしいですか。"
+
+msgid "Lấy lại mật khẩu"
+msgstr "パースワードの再取得"
+
+msgid "dữ liệu không hợp lệ"
+msgstr "データが正しくありません"
+
+msgid "not a csv file"
+msgstr "CSVファイルではありません。"
+
+msgid "không tìm thấy office"
+msgstr "施設が見つかりません。"
+
+msgid "invalid file."
+msgstr "ファイルが無効です。"
+
+msgid "couldn't read file."
+msgstr "ファイルが読み込めません"
+
+msgid "unknown error occurred."
+msgstr "予期せぬエラーが発生しました。"
+
+msgid "ngày không đúng định dạng (yyyy/mm/dd)"
+msgstr "日付が正しくありません(yyyy/mm/dd)"
+
+msgid "tháng không đúng định dạng (yyyy/mm/dd)"
+msgstr "月が正しくありません(yyyy/mm/dd)"
+
+msgid "năm tháng không đúng định dạng (yyyy/mm)"
+msgstr "年月が正しくありません(yyyy/mm)"
+
+msgid "lưu dữ liệu thất bại"
+msgstr "保存に失敗しました。"
+
+msgid "Price"
+msgstr "価格"
+
+msgid "Quản lý kết nối API"
+msgstr "API接続管理"
+
+msgid "Prefecture"
+msgstr "都道府県"
+
+msgid "tên Kana của người liên lạc lúc cần"
+msgstr "緊急連絡先ふりがな"
+
+msgid "địa chỉ liên lạc lúc cần"
+msgstr "緊急連絡先住所"
+
+msgid "Bản ghi này đang được sử dụng ở nơi khác."
+msgstr "この記録は他のところで使用しています。"
+
+msgid "Number"
+msgstr "番号"
+
+msgid "Option"
+msgstr "選択肢"
+
+msgid "Đăng ký trợ cấp DB"
+msgstr "手当DB登録"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Mật khẩu mới của bạn là "
+msgstr "新しいパスワードはこちらです"
+
+msgid "tên người liên lạc lúc cần"
+msgstr "緊急連絡先氏名"
+
+msgid "Mật khẩu mới của bạn đả được gửi đến email:"
+msgstr "新しいパスワードはメールに送りました。"
+
+msgid "Hảy kiểm tra email của bạn."
+msgstr "メールをチェックして下さい。"
+
+msgid "click vào đây để tiếp tục đăng nhập vào hệ thống."
+msgstr "こちらを押してログインして下さい。"
+
+msgid "Lấy lại mật khẩu"
+msgstr "パスワードを忘れた方"
+
+msgid "Xin chào:"
+msgstr "こんにちは"
+
+msgid "Dự toán hàng ngày"
+msgstr "日次決算"
+
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+msgid "Saved"
+msgstr "保存しました"
+
+msgid "Item saved"
+msgstr "保存しました"
+
+msgid "Job category number"
+msgstr "職種番号"
+
+msgid "Month fixed"
+msgstr "月固定"
+
+msgid "Number of Attendance"
+msgstr "出勤回数"
+
+msgid "Number of night shifts"
+msgstr "夜勤回数"
+
+msgid "employment insurance"
+msgstr "労働保険料"
+
+msgid "social insurance"
+msgstr "社会保険料金額"
+
+msgid "allowances"
+msgstr "手当"
+
+msgid "public transportation (regular monthly fee)"
+msgstr "公共交通機関（定期月額"
+
+msgid "vehicle cost (amount per attendance)"
+msgstr "車両費（出勤毎の金額）"
+
+msgid "one way transportation"
+msgstr "片道交通費"
+
+msgid "round trip transportation"
+msgstr "往復交通費"
+
+msgid "commute route"
+msgstr "通勤ルート"
+
+msgid "Hiện đang có một số bài viết thuộc thể loại này. Để xóa thể loại bạn phải xóa những bài viết thuộc thể loại này trước."
+msgstr "このカテゴリーには記事が存在しています。このカテゴリーを削除するため、全ての記事を削除しておいて下さい。"
+
+msgid " Please enter a valid email address."
+msgstr "正しいメールアドレスを入力してください。"
+
+msgid "Company này không có ofice nào."
+msgstr "この会社は、あらゆるオフィスを持っていません。"
+
+msgid "Đăng ký trợ cấp làm đêm DB"
+msgstr "夜勤DB登録"
+
+msgid "Paid service unit price (for schedule calculation)"
+msgstr "有料サービス単価（予定算出用）"
+
+msgid "line"
+msgstr "行数"
+
+msgid "column"
+msgstr "列名"
+
+msgid "unknown column \"%s\""
+msgstr "未知コラム \"%s\""
+
+msgid "empty column name"
+msgstr "空カラムの名"
+
+msgid "dữ liệu không được để trống"
+msgstr "データが空白です。"
+
+msgid "dữ liệu không đúng định dạng(số không âm)"
+msgstr "データ型が正しくありません（正数）"
+
+msgid "dữ liệu không đúng định dạng(yyyy/mm/dd)"
+msgstr "データ型が正しくありません（yyyy/mm/dd）"
+
+msgid "dữ liệu không đúng định dạng( (ddd) ddd-dddd )"
+msgstr "データ型が正しくありません（(ddd) ddd-dddd）"
+
+msgid "email không hợp lệ"
+msgstr "無効なメールアドレス"
+
+msgid "dữ liệu không đúng định dạng(Occupation ID-Occupation Number)"
+msgstr "データ型が正しくありません(職種IDー職種番号)"
+
+msgid "dữ liệu không đúng định dạng(0:not in office, 1:in office)"
+msgstr "データ型が正しくありません(0:not in office, 1:in office)"
+
+msgid "dữ liệu không đúng định dạng(0:male, 1:femail)"
+msgstr "データ型が正しくありません(0:male, 1:femail)"
+
+msgid "năm tháng không đúng định dạng (eg: Jan-17)"
+msgstr "データ型が正しくありません(eg: Jan-17)"
+
+msgid "lưu dữ liệu thất bại"
+msgstr "保存が失敗しました"
+
+msgid "không tìm thấy office"
+msgstr "施設が見つかりません"
+
+msgid "không tìm thấy company"
+msgstr "会社が見つかりません"
+
+msgid "không tìm thấy company group"
+msgstr "グループが見つかりません"
+
+msgid "couldn\'t find occupation"
+msgstr "職業が見つかりません"
+
+msgid "no records found"
+msgstr "レコードが見つかりません"
+
+msgid "the next download will be available in %s seconds"
+msgstr "次のダウンロードは　%s　秒に利用可能になります"
+
+msgid "có lỗi xảy ra, xóa employee thất bại"
+msgstr "エラーが発生しましたので、従業員を削除することはできません"
+
+msgid "đã xóa employee"
+msgstr "従業員を削除しました"
+
+msgid "không tìm thấy employee"
+msgstr "従業員が見つかりません"
+
+msgid "import employee"
+msgstr "従業員を新規追加する"
+
+msgid "update employee"
+msgstr "従業員登録内容を変更する"
+
+msgid "public transportation (regular monthly fee)"
+msgstr "公共交通機関（定期月額）"
+
+msgid "public transportation"
+msgstr "公共交通機関"
+
+msgid "vehicle cost"
+msgstr "交通費額"
+
+msgid "do you want to delete this employee?"
+msgstr "この従業員を削除しても宜しいでしょうか。"
+
+msgid "employee number"
+msgstr "社員番号"
+
+msgid "email đã được sử dụng. Hãy thử dùng một email khác."
+msgstr "すでに登録されているメールアドレスです。別のメールアドレスを使用してください。"
+
+msgid "close"
+msgstr "閉じる"
+
+msgid "an unknown error occurred"
+msgstr "予期しないエラーが起きました。"
+
+msgid "download sample csv file"
+msgstr "CSVファイルのサンプルをダウンロード。"
+
+msgid "download sample csv file for import employee"
+msgstr "従業員を新規追加するため、CSVファイルのサンプルをダウンロード。"
+
+msgid "download sample csv file for update employee"
+msgstr "従業員登録内容を変更するため、CSVファイルのサンプルをダウンロード。"
+
+msgid "name of sales is duplicated: \"%s\""
+msgstr "\"%s\"の売上の名前は重複しています。"
+
+msgid "name of sales cannot be empty"
+msgstr "売上の名前を空にできません。"
+
+msgid "name of expense is duplicated: \"%s\""
+msgstr "\"%s\"の経費の名前は重複しています。"
+
+msgid "name of expense cannot be empty"
+msgstr "経費の名前を空にできません。"
+
+msgid "dữ liệu không đúng định dạng(mm)"
+msgstr "データ型が正しくありません（mm）"
+
+msgid "dữ liệu không đúng định dạng(yyyy)"
+msgstr "データ型が正しくありません（yyyy）"
+
+msgid "couldn\'t find company group with id: %s"
+msgstr "id: %sのグループが見つかりません。"
+
+msgid "couldn\'t find company with id: %s"
+msgstr "id: %sの会社が見つかりません。"
+
+msgid "couldn\'t find office with id: %s"
+msgstr "id: %sの施設が見つかりません。"
+
+msgid "couldn\'t find position with id: %s"
+msgstr "id: %sの役職が見つかりません。"
+
+msgid "couldn\'t find allowance with id: %s"
+msgstr "id: %sの手当が見つかりません。"
+
+msgid "couldn\'t find license with id: %s"
+msgstr "id: %sの資格が見つかりません。"
+
+msgid "couldn\'t find occupation (%s)"
+msgstr "職業が見つかりません。（%s）"
+
+msgid "couldn\'t find employee with id: %s"
+msgstr "id: %sの従業員が見つかりません。"
+
+msgid "couldn\'t update allowances"
+msgstr "手当を更新できません。"
+
+msgid "couldn\'t update licenses"
+msgstr "資格を更新できません。"
+
+msgid "couldn\'t update occupations"
+msgstr "職種を更新できません。"
+
+msgid "couldn\'t find prize with id: %s"
+msgstr "id：%sの賞金を更新できません。"
+
+msgid "couldn\'t update sales: \"%s\""
+msgstr "\"%s\"の売上を更新できません。"
+
+msgid "couldn\'t update expense: \"%s\""
+msgstr "\"%s\"の費用を更新できません。"
+
+msgid "couldn\'t update record"
+msgstr "レコードを更新できません。"
+
+msgid "Display order"
+msgstr "表示順"
+
+msgid "Numerical value"
+msgstr "数値"
+
+msgid "column \"%s\" is duplicated"
+msgstr "\"%s\"コラムは重複されます。"
+
+msgid "\"%s\" is duplicated"
+msgstr "\"%s\"は重複されます。"
+
+msgid "hiring pattern"
+msgstr "雇用形態"
+
+msgid "Maximum number of people"
+msgstr "宿泊定員人数"
+
+msgid "Headquarter"
+msgstr "本部"
+
+msgid "Forgot password"
+msgstr "パスワードを忘れました"
+
+msgid "Term and condition"
+msgstr "利用規約"
+
+msgid "Resend Password"
+msgstr "パスワードを再送"
+
+msgid "privacy policy"
+msgstr "プライバシーポリシー"
+
+msgid "Point config"
+msgstr "ポイント設定"
+
+msgid "Point type"
+msgstr "ポイントの種類"
+
+msgid "Point for employees"
+msgstr "従業員に付与するポイント"
+
+msgid "Past highest sales"
+msgstr "過去最高売上"
+
+msgid "Doanh số cao nhất trong quá khứ"
+msgstr "過去最高売上入力"
+
+msgid "rate of operation"
+msgstr "稼働率"
+
+msgid "average care level"
+msgstr "平均介護度"
+
+msgid "number of users"
+msgstr "利用者数"
+
+
+msgid "stay"
+msgstr "宿泊"
+
+msgid "expense"
+msgstr "経費"
+
+msgid "past highest sales"
+msgstr "過去最高売上"
+
+msgid "Data empty"
+msgstr "空のデータ"
+
+msgid "Point history"
+msgstr "ポイントの履歴"
+
+msgid "Campaign point"
+msgstr "キャンペーンポイント"
+
+msgid "Introduction point"
+msgstr "紹介ポイント"
+
+msgid "Reference point"
+msgstr "紹介ポイント"
+
+msgid "Point"
+msgstr "ポイント"
+
+msgid "Prize detail"
+msgstr "報奨ポイント明細"
+
+msgid "date created"
+msgstr "作成日"
+
+
+msgid "My Bonus"
+msgstr "マイボーナス"
+
+msgid "Bonus quarters"
+msgstr "四半期ボーナス"
+
+msgid "Quarters 1"
+msgstr "四半期１"
+
+msgid "Quarters 2"
+msgstr "四半期２"
+
+msgid "Manual input point"
+msgstr "手入力ポイント"
+
+msgid "past highest sales"
+msgstr "過去最高売上"
+
+msgid "Quarters 3"
+msgstr "四半期３"
+
+msgid "Quarters 4"
+msgstr "四半期４"
+
+msgid "Autorun calculator Bonus Quarter all of Employee"
+msgstr "従業員のために四半期ボーナスを計算するように自動的に実行する"
+
+msgid "Select quarters"
+msgstr "四半期選択"
+
+msgid "Bonus"
+msgstr "ボーナス"
+
+msgid "Quarters"
+msgstr "四半期"
+
+msgid "	year"
+msgstr "年"
+
+msgid "Quarters Point"
+msgstr "四半期ポイント"
+
+msgid "Quarters Basic Salary"
+msgstr "四半期の基本給"
+
+msgid "Shift Management"
+msgstr "シフト管理"
+
+msgid "View in shift management system"
+msgstr "シフト管理システムで表示する"
+
+msgid "Achievement point condition"
+msgstr "業績ポイント状態"
+
+msgid "Nhập điểm thưởng"
+msgstr "ポイント入力"
+
+msgid "Đăng ký điểm thưởng"
+msgstr "ポイント登録"
+
+msgid "Display in budget ranking"
+msgstr "予算ランキングで表示する"
+
+msgid "Employee registration authority only"
+msgstr "従業員登録権限のみ"
+
+msgid "Daily settlement display item setting"
+msgstr "日次決算表示項目設定"
+
+msgid "Business start month"
+msgstr "事業開始月"
+
+msgid "sales"
+msgstr "売上"
+
+msgid "operating income"
+msgstr "営業利益"
+
+msgid "personnel expenses"
+msgstr "人件費"
+
+msgid "sales composition"
+msgstr "売上構成"
+
+msgid "Fulltime"
+msgstr "一般職員"
+
+msgid "Parttime"
+msgstr "非常勤職員"
+
+msgid "Stage name"
+msgstr "ステージ名称"
+
+msgid "Earned points"
+msgstr "累計獲得ポイント"
+
+msgid "Quarterly points earned"
+msgstr "四半期獲得ポイント"
+
+msgid "Current rank"
+msgstr "現在のランク"
+
+msgid "còn %s point nữa thì đến rank tiếp theo"
+msgstr "次のランクまであと%sポイント"
+
+msgid "Quarterly points earned"
+msgstr "今四半期獲得ポイント"
+
+msgid "Your quarterly bonus"
+msgstr "あなたの四半期ボーナス"
+
+msgid "Total earned points"
+msgstr "累計獲得ポイント"
+
+msgid "Cumulative earned points"
+msgstr "累計獲得ポイント"
+
+msgid "sales target"
+msgstr "売上目標"
+
+msgid "budget achievement rate"
+msgstr "予算達成率"
+
+msgid "operating profit target"
+msgstr "営業利益目標"
+
+msgid "operating income achievement rate"
+msgstr "営業利益達成率"
+
+msgid "Graph color"
+msgstr "グラフの色"
+
+msgid "current year"
+msgstr "当期累計"
+
+msgid "cumulative percent complete"
+msgstr "累計達成率"
+
+msgid "occupancy rate"
+msgstr "稼働率"
+
+msgid "budget ratio"
+msgstr "予算比率"
+
+msgid "mail adress(required)"
+msgstr "メールアドレス（必須）"
+
+msgid "highest ever sales"
+msgstr "過去最高売上"
+
+msgid "earnings"
+msgstr ""
+
+msgid "personnel expenses"
+msgstr "人件費"
+
+msgid "other expenses"
+msgstr "その他経費"
+
+msgid "budget contrast"
+msgstr "予算対比"
+
+msgid "contrast with last year"
+msgstr "昨年対比"
+
+msgid "Previous ranking"
+msgstr ""
+
+msgid "previous ranking"
+msgstr "前回順位"
+
+msgid "excess profit"
+msgstr "超過利益額"
+
+msgid "Daily settlement chart group color setting"
+msgstr "日次決算表グループ色設定"
+
+msgid "Color"
+msgstr "色"
+
+msgid "Collumn"
+msgstr "コラム"
+
+msgid "Color for collumn"
+msgstr "コラムの色"
+
+msgid "Color for company"
+msgstr "会社の色"
+
+msgid "sales registration right"
+msgstr "売上登録権限"
+
+msgid "Basic bonus"
+msgstr "基本ボーナス"
+
+msgid "download sample csv file for import bonus base"
+msgstr "基本ボーナスインポートのために、CSVファイルのサンプルをダウンロード。"
+
+msgid "Upload"
+msgstr "アップロードする"
+
+msgid "By percent achieved"
+msgstr "達成率順"
+
+msgid "Show row in Subtotal"
+msgstr "小計内の最後列に表示"
+
+msgid "Display in the front row in subtotal"
+msgstr "小計内の最前列に表示"
+
+msgid "Your quarterly bonus forecast"
+msgstr "あなたの四半期ボーナス予想"
+
+msgid "Import point"
+msgstr "ポイントのインポート"
+
+msgid "Click here for CSV format for upload"
+msgstr "アップロード用のCSV書式はこちら"
+
+msgid "quarterly ranking"
+msgstr "四半期ランキング"
+
+msgid "quarterly cumulative excess profit"
+msgstr "四半期累計超過利益額"
+
+msgid "quarter cumulative achievement rate"
+msgstr "四半期累計達成率"
+
+msgid "verification"
+msgstr "検定"
+
+msgid "employee number exits."
+msgstr "既存の従業員番号。"
+
+msgid "select"
+msgstr "選択"
+
+msgid "working time"
+msgstr "労働時間"
+
+msgid "cumulative sales target amount"
+msgstr "累計売上目標額"
+
+msgid "cumulative profit target amount"
+msgstr "累計利益目標額"
+
+msgid "basic bonus csv download"
+msgstr "基本ボーナスCSVダウンロード"
+
+msgid "Quarterly CSV"
+msgstr "四半期CSV"
+
+msgid "Basic Bonus + Quarterly Point CSV Download"
+msgstr "基本ボーナス+四半期ポイントCSVダウンロード"
+
+msgid "Quarterly Bonus CSV Download"
+msgstr "四半期ボーナスCSVダウンロード"
+
+msgid "download"
+msgstr "ダウンロード"
+
+msgid "Employee number is duplicated"
+msgstr "社員番号が重複しています"
+
+msgid "Item saved"
+msgstr "アイテムが保存されました."
+
+msgid "The item could not be saved. Please try again."
+msgstr "アイテムを保存できませんでした。もう一度試してください。"
+
+msgid "calendar"
+msgstr "カレンダー"
+
+msgid "Ranking"
+msgstr "ランキング"
+
+msgid "shift view"
+msgstr "シフト閲覧"
+
+msgid "shift reading and editing"
+msgstr "シフト閲覧・編集"
+
+msgid "shift viewing, editing, and personnel costs"
+msgstr "シフト閲覧・編集・人件費閲覧"
+
+msgid "sales registration right"
+msgstr "売上登録権限"
+
+msgid "Cumulative Earned Basic Bonus"
+msgstr "累計獲得基本ボーナス"
+
+msgid "Cumulative earned points"
+msgstr "累計獲得ポイント"
+
+msgid "Email xác nhận đã được gửi. Kích hoạt tài khoản của bạn như được mô tả trong email."
+msgstr "確認メールを送信しました。メールの説明に従ってアカウントを有効化してください。"
+
+msgid "number posts"
+msgstr "記事の数"
+
+msgid "Blog article display count"
+msgstr "ブログ記事表示数"
+
+msgid "Cài đặt thông báo đăng ký nhân viên"
+msgstr "従業員登録通知設定"
+
+msgid "Add"
+msgstr "追加"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+#~ msgid "Thể loại"
+#~ msgstr "記事カテゴリー"
+
+#~ msgid "License"
+#~ msgstr "資格"
+
+#~ msgid "Postion"
+#~ msgstr "役職"
+
+#~ msgid "Apply"
+#~ msgstr "申込"
+
+#~ msgid "Super admin"
+#~ msgstr "スーパーアドミン"
+
+#~ msgid "những thay đổi của bạn sẽ bị mất, bạn có muốn tiếp tục?"
+#~ msgstr "これらは表示されなくなります。続けますか？"
+
+#~ msgid "city"
+#~ msgstr "市区町村"
+
+#~ msgid "district"
+#~ msgstr "都道府県"
+
+#~ msgid "hour pay"
+#~ msgstr "時給"
+
+#~ msgid "Postal code"
+#~ msgstr "郵便番号"
+
+#~ msgid "City"
+#~ msgstr "都道府県"
+
+#~ msgid "Address"
+#~ msgstr "住所"
+
+#~ msgid "Scope"
+#~ msgstr "定員人数"

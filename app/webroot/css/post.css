@@ -1,0 +1,529 @@
+#add-category .form-add-category{
+    display: none;
+}
+
+#add-category #show-hidden-form{
+    font-weight: 600;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+#add-category .form-add-category input,
+#add-category .form-add-category select{
+    width: 98%;
+    margin: 0 auto;
+}
+
+#add-category .btn-add-ajax{
+    text-align:center;
+    margin-bottom: 0px;
+}
+
+.list-post {
+    font-size: 13px;
+    min-height: 415px;
+}
+.list-post span.title{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.list-post .post-title{
+	margin-top: 20px;
+  margin-bottom: 20px;
+}
+.list-post .subsubsub{
+    list-style: none;
+    padding-left: 0;
+    margin-right: 10px;
+}
+.list-post .subsubsub li{
+    display: inline-block;
+}
+.list-post .search-top{
+    margin-top: 20px;
+}
+.list-post .search-top .search-box{
+    width: 230px;
+    float: right;
+}
+.list-post .search-top .search-box .search_param{
+    height: 33px;
+}
+
+.list-post .search-top .search-box button{
+    height: 33px;
+}
+.list-post .search-top .subsubsub li a span{
+    color: #333;
+}
+.list-post .search-bottom{
+    margin-top: 20px;
+}
+.list-post  .search-bottom .action{
+    float: left;
+}
+.list-post  #delete-all{
+    margin-right: 10px;
+}
+
+.list-post .search-bottom .action select,
+.list-post .search-bottom .filter select,
+.list-post .subsubsub select,
+.list-post select#action{
+    min-width: 220px;
+    height: 33px;
+    border-radius: 0 !important;
+    box-shadow: none;
+    border-color: #d2d6de;
+    padding: 3px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.list-post .search-bottom  .subsubsub{
+	float: left;
+  margin-top: 20px;
+}
+.list-post .search-bottom .bulkactions{
+   margin-top: 20px;
+}
+.list-post .search-bottom .filter{
+    float: left;
+    margin-top: 20px;
+}
+.list-post .search-bottom .filter .postform{
+    margin-left: 5px;
+}
+.list-post .search-bottom .filter #post-query-submit{
+    margin-left: 15px;
+    height: 33px;
+}
+
+.list-post .bulkactions{
+  float: left;
+}
+.list-post #doaction{
+  margin-left: 5px;
+  margin-top: -3px;
+  margin-right: 15px;
+  height: 33px;
+}
+.list-post .list-content table {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+}
+.list-post .list-content table .media-body{
+    width: auto;
+}
+
+.list-post .list-content table img{
+    width: 60px;
+    height: 45px;
+}
+.list-post .list-content table .media-body .media-heading p{
+  width: 325px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list-post .list-content table .media-body .action{
+    display: none;
+    position: relative;
+}
+.list-post .list-content table tr:hover .action{
+    display: block;
+}
+.list-post .list-content table tr .date p{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.list-post .list-content table tr .title {
+  width: 430px;
+}
+.list-post .list-content table tr .title h4 a {
+    color:#0073aa;
+    font-size: 16px;
+}
+.list-post .list-content table tr .title h4 a:hover{
+    color:#0073aa;
+}
+.list-post .list-content table tr .title .action span{
+    font-size: 12px;
+    color: #ccc;
+
+}
+.list-post .post-paginator{
+  margin-top: 20px;
+}
+.list-post .pagination-post .paging-list{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.list-post .pagination-post .total-item{
+    float: left;
+    margin-top: 7px;
+}
+
+/* custom checkbox */
+/* Base for label styling */
+.list-post .list-content table [type="checkbox"]:not(:checked),
+.list-post .list-content table [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.list-post .list-content table [type="checkbox"]:not(:checked) + label,
+.list-post .list-content table [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+.list-post .list-content table [type="checkbox"]:not(:checked) + label:before,
+.list-post .list-content table [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; 
+  top: -5px;
+  width: 13px; 
+  height: 13px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  border-radius: 0px;
+}
+/* checked mark aspect */
+.list-post .list-content table [type="checkbox"]:not(:checked) + label:after,
+.list-post .list-content table [type="checkbox"]:checked + label:after {
+  content: '\f00c';
+  position: absolute;
+  top: -5px; 
+  left: 0px;
+  line-height: 0.8;
+  color: #0942ad;
+  transition: all .2s;
+  font-weight: 500;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+/* checked mark aspect changes */
+.list-post .list-content table [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.list-post .list-content table [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+.list-post .list-content table [type="checkbox"]:disabled:not(:checked) + label:before,
+.list-post .list-content table [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+.list-post .list-content table [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+.list-post .list-content table [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+.list-post .list-content table [type="checkbox"]:checked:focus + label:before,
+.list-post .list-content table [type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+}
+
+/* checkbox category */
+/* Base for label styling */
+#add-category [type="checkbox"]:not(:checked),
+#add-category [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+#add-category [type="checkbox"]:not(:checked) + label,
+#add-category [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  top: -5px;
+}
+
+/* checkbox aspect */
+#add-category  [type="checkbox"]:not(:checked) + label:before,
+#add-category [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 13px; 
+  height: 13px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  border-radius: 0px;
+}
+/* checked mark aspect */
+#add-category  [type="checkbox"]:not(:checked) + label:after,
+#add-category [type="checkbox"]:checked + label:after {
+ content: '\f00c';
+  position: absolute;
+  top: 3px; 
+  left: 0px;
+  line-height: 0.8;
+  color: #0942ad;
+  transition: all .2s;
+  font-weight: 500;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+/* checked mark aspect changes */
+#add-category  [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+#add-category  [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+#add-category [type="checkbox"]:disabled:not(:checked) + label:before,
+#add-category  [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+#add-category  [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+#add-category  [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+#add-category  [type="checkbox"]:checked:focus + label:before,
+#add-category  [type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+}
+
+/* hover style just for information */
+.list-post .list-content table label:hover:before {
+  border: 1px solid #4778d9!important;
+}
+
+#subsubsub-active a{
+    color: #333;
+    font-weight: 600;
+}
+
+
+.post-content {
+	/* margin-bottom: 50px; */
+}
+.post-content .clear{
+	clear: both;
+}
+.post-content{
+	margin-bottom: 5px;
+  font-size: 14px;
+  padding: 10px;
+}
+.post-content .media{
+	background: #f5f5f5;
+	padding: 10px;
+}
+.posts-view .post-content {
+  padding: 0;
+}
+.posts-view .post-content .short_description{
+  font-size: 18px;
+  color: #5f5f5f;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.post-view-header {
+  border-bottom: 1px solid #ddd;
+}
+.post-view-header h4{
+  font-size: 20px;
+}
+.post-view-header .date{
+  font-size: 14px;
+  padding-top: 16px;
+}
+.gtco-heading .post-description p{
+  font-size: 15px;
+}
+.post-content .media-left img{
+    width: 100px;
+        height: 65px;
+    object-position: center;
+    object-fit: cover;
+}
+.post-content .media .media-heading {
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+.post-content .media .media-heading .title{
+  float: left;
+  margin: 0;
+  font-size: 16px;
+}
+.post-content .media .media-heading .title:hover{
+	color: #FF5126 ;
+}
+.post-content .media .media-heading .date{
+	float: right;
+}
+
+.post-content.pagination-post{
+	float: right;
+}
+
+.post-sidebar{
+	margin-top: 20px;
+}
+
+.post-same .list-group-item{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.post-same .list-group-item .title{
+  margin:  0;
+  font-size: 20px;
+  color: #333;
+}
+
+.post-same .list-group-item h4{
+  font-size: 15px;
+}
+.post-same .list-group-item  img{
+  width: 50px;
+}
+.post-same .list-group-item h4:hover{
+  color: #FF5126;
+}
+.post-same .list-group-item .title:hover{
+  color: #333;
+}
+.post-index .pagination-post{
+    text-align: right;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.posts-view .post-content{
+}
+.posts-view .top-post h3{
+	margin-top: 3px;
+}
+.post-admin-edit .nav-tabs-custom>.nav-tabs>li>a{
+
+        border-radius: 3px !important;
+    background-color: #f4f4f4;
+          margin-right: 2px; 
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 0 0;
+
+        position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+
+}
+
+.category{
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .list-post .search-bottom .action select, 
+  .list-post .search-bottom .filter select, 
+  .list-post .subsubsub select, 
+  .list-post select#action {
+    min-width: 190px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .list-post .search-bottom .action select, 
+  .list-post .search-bottom .filter select, 
+  .list-post .subsubsub select, 
+  .list-post select#action {
+    min-width: 135px;
+  }
+  .list-post .search-top .search-box{
+    width: 180px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .post-content .media-left img{
+    width: 60px;
+    height: 37px;
+  }
+  .post-view-header {
+    padding-bottom: 70px;
+  }
+  .list-post .search-bottom .filter{
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .list-post .search-action{
+    width: 100%;
+  }
+  .list-post .search-action .pull-left,
+  .list-post .bulkactions{
+    width: 100%;
+  }
+  .list-post #doaction{
+    float: right;
+  }
+  .list-post select#action{
+    width: 80%
+  }
+  .list-post .subsubsub-search{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .list-post .search-top .search-box{
+    width: 100%;
+  }
+  .list-post .search-bottom .filter{
+    margin-bottom: 0;
+  } 
+  .list-post .search-bottom  .subsubsub,
+  .list-post .subsubsub select,
+  .list-post .search-bottom .filter,
+  .list-post .search-bottom .filter select{
+    width: 100%;
+  }    
+  .list-post .search-bottom .filter .postform,
+  .list-post .search-bottom .filter #post-query-submit{
+    margin-left: 0;
+  }     
+  .list-post #doaction {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0;
+  }
+  #posts-filter{
+    margin-bottom: -10px;
+  }
+}
+.Preview-date{
+  font-size: 14px;
+  margin-top: 10px;
+}
