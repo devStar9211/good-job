@@ -16,22 +16,36 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /* -- Split with mysqldumpsplitter (http://goo.gl/WIWj6d) -- */
--- Table structure for table `login_lists`
+-- Table structure for table `shifts`
 --
 
-DROP TABLE IF EXISTS `login_lists`;
+DROP TABLE IF EXISTS `shifts`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `login_lists` (
+CREATE TABLE `shifts` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `account_id` int(10) unsigned NOT NULL,
   `office_id` int(10) unsigned NOT NULL,
+  `month` int(10) unsigned NOT NULL,
+  `overtime_pay` int(10) NOT NULL DEFAULT '0',
+  `welfare_expenses` int(10) NOT NULL DEFAULT '0',
+  `total_pay` int(10) NOT NULL DEFAULT '0',
+  `day_shift_nums` json DEFAULT NULL,
+  `night_shift_nums` json DEFAULT NULL,
+  `judgment` json DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `login_lists_account_id_office_id_unique` (`account_id`,`office_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7645 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  KEY `shifts_office_id_month_index` (`office_id`,`month`)
+) ENGINE=InnoDB AUTO_INCREMENT=1607 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
---
--- Table structure for table `migrations`
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-05-14  0:56:05
